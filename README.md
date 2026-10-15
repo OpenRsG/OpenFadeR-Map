@@ -5,6 +5,12 @@ when a connected MIDI input port's name contains the file's `<port>` (the longes
 
 ## Install
 
+In the app: PREFERENCES > CONTROLLER > GET MAPPINGS lists every mapping of this repository (it is there by default; search
+by controller name) and installs one in one click. Plug in a controller that has no mapping yet and the app offers the
+matching file from this repository: one click on INSTALL and the controller works.
+
+## Other ways
+
 The app looks for mapping files in each folder of `$OPENFADER_MAPPINGS` (`:`-separated), then in
 `~/.config/openfader/mappings/`, then in a `mappings/` folder next to the executable. Either copy the files you need there or
 point the app at this checkout:
