@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>Allen &amp; Heath Xone:43C</name>
+    <port>Xone:43C</port>
+  </info>
+  <controls>
+    <control status="0x9E" midino="0x0D" action="load" deck="0"/>
+    <control status="0x9E" midino="0x0E" action="load" deck="1"/>
+    <control status="0xBE" midino="0x14" action="browse" deck="0"/>
+    <control status="0xBE" midino="0x15" action="browse" deck="0"/>
+    <control status="0x9E" midino="0x1C" action="cue" deck="2"/>
+    <control status="0x9E" midino="0x1D" action="cue" deck="0"/>
+    <control status="0x9E" midino="0x1E" action="cue" deck="1"/>
+    <control status="0x9E" midino="0x1F" action="cue" deck="3"/>
+    <control status="0x9E" midino="0x28" action="sync" deck="2"/>
+    <control status="0x9E" midino="0x29" action="sync" deck="0"/>
+    <control status="0x9E" midino="0x2A" action="sync" deck="1"/>
+    <control status="0x9E" midino="0x2B" action="sync" deck="3"/>
+    <control status="0x9E" midino="0x34" action="loop-4" deck="2"/>
+    <control status="0x9E" midino="0x35" action="loop-4" deck="0"/>
+    <control status="0x9E" midino="0x36" action="loop-4" deck="1"/>
+    <control status="0x9E" midino="0x37" action="loop-4" deck="3"/>
+    <control status="0xBE" midino="0x0C" action="filter" deck="2"/>
+    <control status="0xBE" midino="0x0D" action="filter" deck="0"/>
+    <control status="0xBE" midino="0x0E" action="filter" deck="1"/>
+    <control status="0xBE" midino="0x0F" action="filter" deck="3"/>
+    <control status="0xBE" midino="0x04" action="fx-level-1" deck="0"/>
+    <control status="0xBE" midino="0x05" action="fx-level-2" deck="0"/>
+    <control status="0xBE" midino="0x06" action="fx-level-3" deck="0"/>
+    <control status="0x9E" midino="0x30" action="hw-fx-on" deck="0"/>
+    <control status="0x9E" midino="0x31" action="hw-fx-on" deck="0" arg="1"/>
+    <control status="0x9E" midino="0x32" action="hw-fx-on" deck="0" arg="2"/>
+    <control status="0x9E" midino="0x33" action="hw-fx-tap" deck="0"/>
+    <control status="0xBE" midino="0x08" action="fx-level-1" deck="1"/>
+    <control status="0xBE" midino="0x09" action="fx-level-2" deck="1"/>
+    <control status="0xBE" midino="0x0A" action="fx-level-3" deck="1"/>
+    <control status="0x9E" midino="0x2C" action="hw-fx-on" deck="1"/>
+    <control status="0x9E" midino="0x2D" action="hw-fx-on" deck="1" arg="1"/>
+    <control status="0x9E" midino="0x2E" action="hw-fx-on" deck="1" arg="2"/>
+    <control status="0x9E" midino="0x2F" action="hw-fx-tap" deck="1"/>
+  </controls>
+  <outputs>
+    <output status="0x9E" midino="0x60" light="Play" deck="2"/>
+    <output status="0x9E" midino="0x61" light="Play" deck="0"/>
+    <output status="0x9E" midino="0x62" light="Play" deck="1"/>
+    <output status="0x9E" midino="0x63" light="Play" deck="3"/>
+    <output status="0x9E" midino="0x1C" light="Cue" deck="2"/>
+    <output status="0x9E" midino="0x1D" light="Cue" deck="0"/>
+    <output status="0x9E" midino="0x1E" light="Cue" deck="1"/>
+    <output status="0x9E" midino="0x1F" light="Cue" deck="3"/>
+    <output status="0x9E" midino="0x70" light="Sync" deck="2"/>
+    <output status="0x9E" midino="0x71" light="Sync" deck="0"/>
+    <output status="0x9E" midino="0x72" light="Sync" deck="1"/>
+    <output status="0x9E" midino="0x73" light="Sync" deck="3"/>
+    <output status="0x9E" midino="0x7C" light="Loop" deck="2"/>
+    <output status="0x9E" midino="0x7D" light="Loop" deck="0"/>
+    <output status="0x9E" midino="0x7E" light="Loop" deck="1"/>
+    <output status="0x9E" midino="0x7F" light="Loop" deck="3"/>
+    <output status="0x9E" midino="0x30" light="Fx(0,0)" deck="0"/>
+    <output status="0x9E" midino="0x31" light="Fx(0,1)" deck="0"/>
+    <output status="0x9E" midino="0x32" light="Fx(0,2)" deck="0"/>
+    <output status="0x9E" midino="0x2C" light="Fx(1,0)" deck="0"/>
+    <output status="0x9E" midino="0x2D" light="Fx(1,1)" deck="0"/>
+    <output status="0x9E" midino="0x2E" light="Fx(1,2)" deck="0"/>
+  </outputs>
+</OpenFadeRMapping>

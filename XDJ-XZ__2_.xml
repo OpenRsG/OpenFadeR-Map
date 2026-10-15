@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>XDJ-XZ (2)</name>
+    <port>XDJ-XZ (2)</port>
+    <outInterval>2</outInterval>
+  </info>
+  <controls>
+    <control status="0xB4" midino="0x0B" action="crossfader" deck="0"/>
+    <control status="0xB4" midino="0x11" action="fader" deck="0"/>
+    <control status="0xB4" midino="0x12" action="fader" deck="1"/>
+    <control status="0xB4" midino="0x13" action="fader" deck="2"/>
+    <control status="0xB4" midino="0x14" action="fader" deck="3"/>
+  </controls>
+  <outputs>
+  </outputs>
+</OpenFadeRMapping>

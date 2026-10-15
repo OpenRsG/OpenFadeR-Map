@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>MIXDECK QUAD</name>
+    <port>MIXDECK QUAD</port>
+  </info>
+  <controls>
+    <control status="0xB0" midino="0x0D" action="fader" deck="0"/>
+    <control status="0xB0" midino="0x13" action="fader" deck="1"/>
+    <control status="0xB0" midino="0x07" action="crossfader" deck="0"/>
+    <control status="0x90" midino="0x3A" action="play" deck="0"/>
+    <control status="0x91" midino="0x3A" action="play" deck="1"/>
+    <control status="0x90" midino="0x39" action="play" deck="0"/>
+    <control status="0x91" midino="0x39" action="play" deck="1"/>
+    <control status="0x90" midino="0x38" action="cue" deck="0"/>
+    <control status="0x91" midino="0x38" action="cue" deck="1"/>
+    <control status="0xB0" midino="0x21" action="browse" deck="0"/>
+    <control status="0xB1" midino="0x21" action="browse" deck="0"/>
+    <control status="0x90" midino="0x46" action="load" deck="0"/>
+    <control status="0x91" midino="0x46" action="load" deck="1"/>
+    <control status="0x90" midino="0x4A" action="browse-back" deck="0"/>
+    <control status="0x91" midino="0x4A" action="browse-back" deck="0"/>
+    <control status="0x90" midino="0x33" action="hw-pad" deck="0"/>
+    <control status="0x90" midino="0x34" action="hw-pad" deck="0" arg="1"/>
+    <control status="0x90" midino="0x35" action="hw-pad" deck="0" arg="2"/>
+    <control status="0x91" midino="0x33" action="hw-pad" deck="1"/>
+    <control status="0x91" midino="0x34" action="hw-pad" deck="1" arg="1"/>
+    <control status="0x91" midino="0x35" action="hw-pad" deck="1" arg="2"/>
+    <control status="0x90" midino="0x30" action="loop-in" deck="0"/>
+    <control status="0x91" midino="0x30" action="loop-in" deck="1"/>
+    <control status="0x90" midino="0x31" action="loop-out" deck="0"/>
+    <control status="0x91" midino="0x31" action="loop-out" deck="1"/>
+    <control status="0x90" midino="0x32" action="reloop" deck="0"/>
+    <control status="0x91" midino="0x32" action="reloop" deck="1"/>
+    <control status="0x90" midino="0x4E" action="reverse" deck="0"/>
+    <control status="0x91" midino="0x4E" action="reverse" deck="1"/>
+    <control status="0x90" midino="0x59" action="jog-touch" deck="0"/>
+    <control status="0x91" midino="0x59" action="jog-touch" deck="1"/>
+    <control status="0x90" midino="0x42" action="vinyl" deck="0"/>
+    <control status="0x91" midino="0x42" action="vinyl" deck="1"/>
+    <control status="0xB0" midino="0x22" action="jog-2c" deck="0"/>
+    <control status="0xB1" midino="0x22" action="jog-2c" deck="1"/>
+    <control status="0x90" midino="0x3B" action="tempo-range" deck="0"/>
+    <control status="0x91" midino="0x3B" action="tempo-range" deck="1"/>
+    <control status="0x90" midino="0x43" action="hw-fx-on" deck="0"/>
+    <control status="0x91" midino="0x43" action="hw-fx-on" deck="1"/>
+    <control status="0xB0" midino="0x12" action="hp-mix" deck="0"/>
+    <control status="0xB0" midino="0x25" action="fx-level-1" deck="0"/>
+    <control status="0xB1" midino="0x25" action="fx-level-1" deck="1"/>
+    <control status="0x90" midino="0x47" action="hw-fx-tap" deck="0"/>
+    <control status="0x91" midino="0x47" action="hw-fx-tap" deck="1"/>
+  </controls>
+  <outputs>
+    <output status="0x90" midino="0x33" light="Play" deck="0"/>
+    <output status="0x91" midino="0x33" light="Play" deck="1"/>
+    <output status="0x90" midino="0x32" light="Play" deck="0"/>
+    <output status="0x91" midino="0x32" light="Play" deck="1"/>
+    <output status="0x90" midino="0x31" light="Cue" deck="0"/>
+    <output status="0x91" midino="0x31" light="Cue" deck="1"/>
+    <output status="0x90" midino="0x36" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x36" light="Loop" deck="1"/>
+    <output status="0xB0" midino="0x3E" light="Fx(0,0)" deck="0"/>
+    <output status="0x90" midino="0x3E" light="Fx(0,0)" deck="0"/>
+    <output status="0xB1" midino="0x3E" light="Fx(1,0)" deck="0"/>
+    <output status="0x91" midino="0x3E" light="Fx(1,0)" deck="0"/>
+  </outputs>
+</OpenFadeRMapping>

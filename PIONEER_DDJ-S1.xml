@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>PIONEER DDJ-S1</name>
+    <port>PIONEER DDJ-S1</port>
+  </info>
+  <controls>
+    <control status="0x90" midino="0x3D" action="load" deck="0"/>
+    <control status="0x91" midino="0x3D" action="load" deck="1"/>
+    <control status="0x94" midino="0x42" action="browse-back" deck="0"/>
+    <control status="0xB4" midino="0x40" action="browse" deck="0"/>
+    <control status="0x94" midino="0x63" action="rec" deck="0"/>
+    <control status="0xB4" midino="0x00" action="trim" deck="0" hires="true"/>
+    <control status="0xB4" midino="0x01" action="trim" deck="1" hires="true"/>
+    <control status="0xB4" midino="0x02" action="eq-hi" deck="0" hires="true"/>
+    <control status="0xB4" midino="0x03" action="eq-hi" deck="1" hires="true"/>
+    <control status="0xB4" midino="0x04" action="eq-mid" deck="0" hires="true"/>
+    <control status="0xB4" midino="0x05" action="eq-mid" deck="1" hires="true"/>
+    <control status="0xB4" midino="0x06" action="eq-low" deck="0" hires="true"/>
+    <control status="0xB4" midino="0x07" action="eq-low" deck="1" hires="true"/>
+    <control status="0x94" midino="0x54" action="cue-monitor" deck="0"/>
+    <control status="0x94" midino="0x55" action="cue-monitor" deck="1"/>
+    <control status="0xB4" midino="0x08" action="fader" deck="0" hires="true"/>
+    <control status="0xB4" midino="0x09" action="fader" deck="1" hires="true"/>
+    <control status="0xB4" midino="0x0A" action="crossfader" deck="0" hires="true"/>
+    <control status="0x90" midino="0x0B" action="play" deck="0"/>
+    <control status="0x91" midino="0x0B" action="play" deck="1"/>
+    <control status="0x90" midino="0x0C" action="cue" deck="0"/>
+    <control status="0x91" midino="0x0C" action="cue" deck="1"/>
+    <control status="0x90" midino="0x1B" action="sync" deck="0"/>
+    <control status="0x91" midino="0x1B" action="sync" deck="1"/>
+    <control status="0x90" midino="0x19" action="tempo-range" deck="0"/>
+    <control status="0x91" midino="0x19" action="tempo-range" deck="1"/>
+    <control status="0xB0" midino="0x00" action="tempo-hw" deck="0" hires="true"/>
+    <control status="0xB1" midino="0x00" action="tempo-hw" deck="1" hires="true"/>
+    <control status="0x90" midino="0x35" action="vinyl" deck="0"/>
+    <control status="0x91" midino="0x35" action="vinyl" deck="1"/>
+    <control status="0x90" midino="0x36" action="jog-touch" deck="0"/>
+    <control status="0x91" midino="0x36" action="jog-touch" deck="1"/>
+    <control status="0xB0" midino="0x01" action="jog-2c" deck="0"/>
+    <control status="0xB1" midino="0x01" action="jog-2c" deck="1"/>
+    <control status="0xB0" midino="0x02" action="jog-2c" deck="0"/>
+    <control status="0xB1" midino="0x02" action="jog-2c" deck="1"/>
+    <control status="0xB0" midino="0x06" action="jog-2c" deck="0"/>
+    <control status="0xB1" midino="0x06" action="jog-2c" deck="1"/>
+    <control status="0xB0" midino="0x07" action="jog-2c" deck="0"/>
+    <control status="0xB1" midino="0x07" action="jog-2c" deck="1"/>
+    <control status="0x90" midino="0x6A" action="reverse" deck="0"/>
+    <control status="0x91" midino="0x6A" action="reverse" deck="1"/>
+    <control status="0x90" midino="0x1A" action="key-lock" deck="0"/>
+    <control status="0x91" midino="0x1A" action="key-lock" deck="1"/>
+    <control status="0x90" midino="0x40" action="slip" deck="0"/>
+    <control status="0x91" midino="0x40" action="slip" deck="1"/>
+    <control status="0x90" midino="0x10" action="loop-in" deck="0"/>
+    <control status="0x91" midino="0x10" action="loop-in" deck="1"/>
+    <control status="0x90" midino="0x11" action="loop-out" deck="0"/>
+    <control status="0x91" midino="0x11" action="loop-out" deck="1"/>
+    <control status="0x90" midino="0x12" action="reloop" deck="0"/>
+    <control status="0x91" midino="0x12" action="reloop" deck="1"/>
+    <control status="0x90" midino="0x14" action="loop-4" deck="0"/>
+    <control status="0x91" midino="0x14" action="loop-4" deck="1"/>
+    <control status="0x90" midino="0x2A" action="hw-pad" deck="0"/>
+    <control status="0x90" midino="0x2B" action="hw-pad" deck="0" arg="1"/>
+    <control status="0x90" midino="0x2C" action="hw-pad" deck="0" arg="2"/>
+    <control status="0x90" midino="0x2D" action="hw-pad" deck="0" arg="3"/>
+    <control status="0x90" midino="0x2E" action="hw-pad" deck="0" arg="4"/>
+    <control status="0x90" midino="0x5C" action="hw-pad-delete" deck="0"/>
+    <control status="0x90" midino="0x5D" action="hw-pad-delete" deck="0" arg="1"/>
+    <control status="0x90" midino="0x5E" action="hw-pad-delete" deck="0" arg="2"/>
+    <control status="0x90" midino="0x5F" action="hw-pad-delete" deck="0" arg="3"/>
+    <control status="0x90" midino="0x60" action="hw-pad-delete" deck="0" arg="4"/>
+    <control status="0x91" midino="0x2A" action="hw-pad" deck="1"/>
+    <control status="0x91" midino="0x2B" action="hw-pad" deck="1" arg="1"/>
+    <control status="0x91" midino="0x2C" action="hw-pad" deck="1" arg="2"/>
+    <control status="0x91" midino="0x2D" action="hw-pad" deck="1" arg="3"/>
+    <control status="0x91" midino="0x2E" action="hw-pad" deck="1" arg="4"/>
+    <control status="0x91" midino="0x5C" action="hw-pad-delete" deck="1"/>
+    <control status="0x91" midino="0x5D" action="hw-pad-delete" deck="1" arg="1"/>
+    <control status="0x91" midino="0x5E" action="hw-pad-delete" deck="1" arg="2"/>
+    <control status="0x91" midino="0x5F" action="hw-pad-delete" deck="1" arg="3"/>
+    <control status="0x91" midino="0x60" action="hw-pad-delete" deck="1" arg="4"/>
+    <control status="0xB2" midino="0x03" action="fx-level-1" deck="0" hires="true"/>
+    <control status="0xB3" midino="0x03" action="fx-level-1" deck="1" hires="true"/>
+    <control status="0x92" midino="0x40" action="hw-fx-on" deck="0"/>
+    <control status="0x93" midino="0x40" action="hw-fx-on" deck="1"/>
+    <control status="0x92" midino="0x41" action="hw-fx-tap" deck="0"/>
+    <control status="0x93" midino="0x41" action="hw-fx-tap" deck="1"/>
+  </controls>
+  <outputs>
+    <output status="0x94" midino="0x54" light="HpCue" deck="0"/>
+    <output status="0x94" midino="0x55" light="HpCue" deck="1"/>
+    <output status="0x90" midino="0x0B" light="Play" deck="0"/>
+    <output status="0x91" midino="0x0B" light="Play" deck="1"/>
+    <output status="0x90" midino="0x0C" light="Cue" deck="0"/>
+    <output status="0x91" midino="0x0C" light="Cue" deck="1"/>
+    <output status="0x90" midino="0x1B" light="Sync" deck="0"/>
+    <output status="0x91" midino="0x1B" light="Sync" deck="1"/>
+    <output status="0x90" midino="0x12" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x12" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x40" light="Fx(0,0)" deck="0"/>
+    <output status="0x93" midino="0x40" light="Fx(1,0)" deck="0"/>
+  </outputs>
+</OpenFadeRMapping>

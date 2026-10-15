@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>Rane FOUR</name>
+    <port>Rane FOUR</port>
+  </info>
+  <controls>
+    <control status="0x90" midino="0x00" action="play" deck="0"/>
+    <control status="0x90" midino="0x50" action="jog-touch" deck="0"/>
+    <control status="0x94" midino="0x0A" action="vinyl" deck="0"/>
+    <control status="0x90" midino="0x11" action="reverse" deck="0"/>
+    <control status="0x94" midino="0x09" action="slip" deck="0"/>
+    <control status="0x90" midino="0x02" action="sync" deck="0"/>
+    <control status="0x90" midino="0x29" action="key-sync" deck="0"/>
+    <control status="0x90" midino="0x2A" action="key-reset" deck="0"/>
+    <control status="0x90" midino="0x01" action="cue" deck="0"/>
+    <control status="0x90" midino="0x2B" action="tempo-range" deck="0"/>
+    <control status="0x90" midino="0x0D" action="key-lock" deck="0"/>
+    <control status="0x94" midino="0x3F" action="loop-4" deck="0"/>
+    <control status="0x94" midino="0x34" action="loop-halve" deck="0"/>
+    <control status="0x94" midino="0x35" action="loop-double" deck="0"/>
+    <control status="0x94" midino="0x36" action="loop-in" deck="0"/>
+    <control status="0x94" midino="0x37" action="loop-out" deck="0"/>
+    <control status="0x94" midino="0x41" action="reloop" deck="0"/>
+    <control status="0xB0" midino="0x17" action="eq-hi" deck="0"/>
+    <control status="0xB0" midino="0x18" action="eq-mid" deck="0"/>
+    <control status="0xB0" midino="0x19" action="eq-low" deck="0"/>
+    <control status="0xB0" midino="0x1C" action="fader" deck="0"/>
+    <control status="0x90" midino="0x06" action="browse-push" deck="0"/>
+    <control status="0x90" midino="0x07" action="browse-back" deck="0"/>
+    <control status="0x91" midino="0x00" action="play" deck="1"/>
+    <control status="0x91" midino="0x50" action="jog-touch" deck="1"/>
+    <control status="0x95" midino="0x0A" action="vinyl" deck="1"/>
+    <control status="0x91" midino="0x11" action="reverse" deck="1"/>
+    <control status="0x95" midino="0x09" action="slip" deck="1"/>
+    <control status="0x91" midino="0x02" action="sync" deck="1"/>
+    <control status="0x91" midino="0x29" action="key-sync" deck="1"/>
+    <control status="0x91" midino="0x2A" action="key-reset" deck="1"/>
+    <control status="0x91" midino="0x01" action="cue" deck="1"/>
+    <control status="0x91" midino="0x2B" action="tempo-range" deck="1"/>
+    <control status="0x91" midino="0x0D" action="key-lock" deck="1"/>
+    <control status="0x95" midino="0x3F" action="loop-4" deck="1"/>
+    <control status="0x95" midino="0x34" action="loop-halve" deck="1"/>
+    <control status="0x95" midino="0x35" action="loop-double" deck="1"/>
+    <control status="0x95" midino="0x36" action="loop-in" deck="1"/>
+    <control status="0x95" midino="0x37" action="loop-out" deck="1"/>
+    <control status="0x95" midino="0x41" action="reloop" deck="1"/>
+    <control status="0xB1" midino="0x17" action="eq-hi" deck="1"/>
+    <control status="0xB1" midino="0x18" action="eq-mid" deck="1"/>
+    <control status="0xB1" midino="0x19" action="eq-low" deck="1"/>
+    <control status="0xB1" midino="0x1C" action="fader" deck="1"/>
+    <control status="0x91" midino="0x06" action="browse-push" deck="0"/>
+    <control status="0x91" midino="0x07" action="browse-back" deck="0"/>
+    <control status="0x92" midino="0x00" action="play" deck="2"/>
+    <control status="0x92" midino="0x50" action="jog-touch" deck="2"/>
+    <control status="0x96" midino="0x0A" action="vinyl" deck="2"/>
+    <control status="0x92" midino="0x11" action="reverse" deck="2"/>
+    <control status="0x96" midino="0x09" action="slip" deck="2"/>
+    <control status="0x92" midino="0x02" action="sync" deck="2"/>
+    <control status="0x92" midino="0x29" action="key-sync" deck="2"/>
+    <control status="0x92" midino="0x2A" action="key-reset" deck="2"/>
+    <control status="0x92" midino="0x01" action="cue" deck="2"/>
+    <control status="0x92" midino="0x2B" action="tempo-range" deck="2"/>
+    <control status="0x92" midino="0x0D" action="key-lock" deck="2"/>
+    <control status="0x96" midino="0x3F" action="loop-4" deck="2"/>
+    <control status="0x96" midino="0x34" action="loop-halve" deck="2"/>
+    <control status="0x96" midino="0x35" action="loop-double" deck="2"/>
+    <control status="0x96" midino="0x36" action="loop-in" deck="2"/>
+    <control status="0x96" midino="0x37" action="loop-out" deck="2"/>
+    <control status="0x96" midino="0x41" action="reloop" deck="2"/>
+    <control status="0xB2" midino="0x17" action="eq-hi" deck="2"/>
+    <control status="0xB2" midino="0x18" action="eq-mid" deck="2"/>
+    <control status="0xB2" midino="0x19" action="eq-low" deck="2"/>
+    <control status="0xB2" midino="0x1C" action="fader" deck="2"/>
+    <control status="0x92" midino="0x06" action="browse-push" deck="0"/>
+    <control status="0x92" midino="0x07" action="browse-back" deck="0"/>
+    <control status="0x93" midino="0x00" action="play" deck="3"/>
+    <control status="0x93" midino="0x50" action="jog-touch" deck="3"/>
+    <control status="0x97" midino="0x0A" action="vinyl" deck="3"/>
+    <control status="0x93" midino="0x11" action="reverse" deck="3"/>
+    <control status="0x97" midino="0x09" action="slip" deck="3"/>
+    <control status="0x93" midino="0x02" action="sync" deck="3"/>
+    <control status="0x93" midino="0x29" action="key-sync" deck="3"/>
+    <control status="0x93" midino="0x2A" action="key-reset" deck="3"/>
+    <control status="0x93" midino="0x01" action="cue" deck="3"/>
+    <control status="0x93" midino="0x2B" action="tempo-range" deck="3"/>
+    <control status="0x93" midino="0x0D" action="key-lock" deck="3"/>
+    <control status="0x97" midino="0x3F" action="loop-4" deck="3"/>
+    <control status="0x97" midino="0x34" action="loop-halve" deck="3"/>
+    <control status="0x97" midino="0x35" action="loop-double" deck="3"/>
+    <control status="0x97" midino="0x36" action="loop-in" deck="3"/>
+    <control status="0x97" midino="0x37" action="loop-out" deck="3"/>
+    <control status="0x97" midino="0x41" action="reloop" deck="3"/>
+    <control status="0xB3" midino="0x17" action="eq-hi" deck="3"/>
+    <control status="0xB3" midino="0x18" action="eq-mid" deck="3"/>
+    <control status="0xB3" midino="0x19" action="eq-low" deck="3"/>
+    <control status="0xB3" midino="0x1C" action="fader" deck="3"/>
+    <control status="0x93" midino="0x06" action="browse-push" deck="0"/>
+    <control status="0x93" midino="0x07" action="browse-back" deck="0"/>
+    <control status="0x9F" midino="0x04" action="hw-fx-tap" deck="0"/>
+    <control status="0xBF" midino="0x08" action="crossfader" deck="0"/>
+    <control status="0x9F" midino="0x4A" action="quantize" deck="0"/>
+    <control status="0xBF" midino="0x04" action="fx-level-1" deck="0"/>
+  </controls>
+  <outputs>
+    <output status="0x90" midino="0x00" light="Play" deck="0"/>
+    <output status="0x90" midino="0x04" light="Play" deck="0"/>
+    <output status="0x90" midino="0x02" light="Sync" deck="0"/>
+    <output status="0x90" midino="0x01" light="Cue" deck="0"/>
+    <output status="0x94" midino="0x3F" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x00" light="Play" deck="1"/>
+    <output status="0x91" midino="0x04" light="Play" deck="1"/>
+    <output status="0x91" midino="0x02" light="Sync" deck="1"/>
+    <output status="0x91" midino="0x01" light="Cue" deck="1"/>
+    <output status="0x95" midino="0x3F" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x00" light="Play" deck="2"/>
+    <output status="0x92" midino="0x04" light="Play" deck="2"/>
+    <output status="0x92" midino="0x02" light="Sync" deck="2"/>
+    <output status="0x92" midino="0x01" light="Cue" deck="2"/>
+    <output status="0x96" midino="0x3F" light="Loop" deck="2"/>
+    <output status="0x93" midino="0x00" light="Play" deck="3"/>
+    <output status="0x93" midino="0x04" light="Play" deck="3"/>
+    <output status="0x93" midino="0x02" light="Sync" deck="3"/>
+    <output status="0x93" midino="0x01" light="Cue" deck="3"/>
+    <output status="0x97" midino="0x3F" light="Loop" deck="3"/>
+  </outputs>
+</OpenFadeRMapping>

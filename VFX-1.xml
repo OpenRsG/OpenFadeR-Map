@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>VFX-1</name>
+    <port>VFX-1</port>
+  </info>
+  <controls>
+    <control status="0x91" midino="0x45" action="hw-fx-on" deck="0"/>
+    <control status="0x91" midino="0x68" action="hw-fx-on" deck="1"/>
+    <control status="0xB1" midino="0x10" action="fx-level-1" deck="0"/>
+    <control status="0xB1" midino="0x11" action="fx-level-1" deck="1"/>
+    <control status="0x91" midino="0x42" action="hw-fx-on" deck="0" arg="1"/>
+    <control status="0x91" midino="0x65" action="hw-fx-on" deck="1" arg="1"/>
+    <control status="0x91" midino="0x41" action="fx-level-2" deck="0"/>
+    <control status="0x91" midino="0x40" action="fx-level-2" deck="0"/>
+    <control status="0x91" midino="0x64" action="fx-level-2" deck="1"/>
+    <control status="0x91" midino="0x63" action="fx-level-2" deck="1"/>
+    <control status="0x91" midino="0x43" action="hw-fx-tap" deck="0"/>
+    <control status="0x91" midino="0x66" action="hw-fx-tap" deck="1"/>
+    <control status="0x91" midino="0x24" action="hw-fx-assign" deck="0" arg="2"/>
+    <control status="0x91" midino="0x25" action="hw-fx-assign" deck="0"/>
+    <control status="0x91" midino="0x26" action="hw-fx-assign" deck="0" arg="1"/>
+    <control status="0x91" midino="0x27" action="hw-fx-assign" deck="0" arg="3"/>
+    <control status="0x91" midino="0x47" action="hw-fx-assign" deck="1" arg="2"/>
+    <control status="0x91" midino="0x48" action="hw-fx-assign" deck="1"/>
+    <control status="0x91" midino="0x49" action="hw-fx-assign" deck="1" arg="1"/>
+  </controls>
+  <outputs>
+    <output status="0x91" midino="0x45" light="Fx(0,0)" deck="0"/>
+    <output status="0x91" midino="0x68" light="Fx(1,0)" deck="0"/>
+    <output status="0x91" midino="0x42" light="Fx(0,1)" deck="0"/>
+    <output status="0x91" midino="0x65" light="Fx(1,1)" deck="0"/>
+  </outputs>
+</OpenFadeRMapping>

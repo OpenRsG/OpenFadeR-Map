@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>MixDeck Express</name>
+    <port>MixDeck Express</port>
+  </info>
+  <controls>
+    <control status="0x90" midino="0x3D" action="play" deck="0"/>
+    <control status="0x91" midino="0x3D" action="play" deck="1"/>
+    <control status="0x90" midino="0x3F" action="cue" deck="0"/>
+    <control status="0x91" midino="0x3F" action="cue" deck="1"/>
+    <control status="0x90" midino="0x50" action="jog-touch" deck="0"/>
+    <control status="0x91" midino="0x50" action="jog-touch" deck="1"/>
+    <control status="0x90" midino="0x44" action="vinyl" deck="0"/>
+    <control status="0x91" midino="0x44" action="vinyl" deck="1"/>
+    <control status="0xB0" midino="0x22" action="jog-2c" deck="0"/>
+    <control status="0xB1" midino="0x22" action="jog-2c" deck="1"/>
+    <control status="0x90" midino="0x48" action="reverse" deck="0"/>
+    <control status="0x91" midino="0x48" action="reverse" deck="1"/>
+    <control status="0x90" midino="0x37" action="loop-in" deck="0"/>
+    <control status="0x91" midino="0x37" action="loop-in" deck="1"/>
+    <control status="0x90" midino="0x36" action="loop-out" deck="0"/>
+    <control status="0x91" midino="0x36" action="loop-out" deck="1"/>
+    <control status="0x90" midino="0x35" action="reloop" deck="0"/>
+    <control status="0x91" midino="0x35" action="reloop" deck="1"/>
+    <control status="0x90" midino="0x3C" action="tempo-range" deck="0"/>
+    <control status="0x91" midino="0x3C" action="tempo-range" deck="1"/>
+    <control status="0x90" midino="0x4B" action="browse-back" deck="0"/>
+    <control status="0x91" midino="0x4B" action="browse-back" deck="0"/>
+    <control status="0xB0" midino="0x21" action="browse" deck="0"/>
+    <control status="0xB1" midino="0x21" action="browse" deck="0"/>
+    <control status="0x90" midino="0x4E" action="load" deck="0"/>
+    <control status="0x91" midino="0x4E" action="load" deck="1"/>
+  </controls>
+  <outputs>
+    <output status="0x90" midino="0x33" light="Play" deck="0"/>
+    <output status="0x91" midino="0x33" light="Play" deck="1"/>
+    <output status="0x90" midino="0x31" light="Cue" deck="0"/>
+    <output status="0x91" midino="0x31" light="Cue" deck="1"/>
+    <output status="0x90" midino="0x36" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x36" light="Loop" deck="1"/>
+    <output status="0x90" midino="0x58" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x58" light="Loop" deck="1"/>
+  </outputs>
+</OpenFadeRMapping>

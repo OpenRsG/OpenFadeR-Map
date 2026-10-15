@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>XDJ-RX3</name>
+    <port>XDJ-RX3</port>
+    <outInterval>2</outInterval>
+  </info>
+  <controls>
+    <control status="0xB0" midino="0x4F" action="browse" deck="0"/>
+    <control status="0xB0" midino="0x60" action="zoom-rot" deck="0"/>
+    <control status="0x90" midino="0x33" action="browse-push" deck="0"/>
+    <control status="0x90" midino="0x61" action="browse-push" deck="0"/>
+    <control status="0x90" midino="0x51" action="load" deck="0"/>
+    <control status="0x91" midino="0x51" action="load" deck="1"/>
+    <control status="0x92" midino="0x51" action="load" deck="2"/>
+    <control status="0x93" midino="0x51" action="load" deck="3"/>
+    <control status="0x90" midino="0x32" action="browse-back" deck="0"/>
+    <control status="0x90" midino="0x5F" action="browse-area" deck="0"/>
+    <control status="0x90" midino="0x30" action="tag" deck="0"/>
+    <control status="0x90" midino="0x62" action="hw-related" deck="0"/>
+    <control status="0x90" midino="0x00" action="play" deck="0"/>
+    <control status="0x91" midino="0x00" action="play" deck="1"/>
+    <control status="0x92" midino="0x00" action="play" deck="2"/>
+    <control status="0x93" midino="0x00" action="play" deck="3"/>
+    <control status="0x90" midino="0x01" action="cue" deck="0"/>
+    <control status="0x91" midino="0x01" action="cue" deck="1"/>
+    <control status="0x92" midino="0x01" action="cue" deck="2"/>
+    <control status="0x93" midino="0x01" action="cue" deck="3"/>
+    <control status="0xB0" midino="0x22" action="jog" deck="0"/>
+    <control status="0xB1" midino="0x22" action="jog" deck="1"/>
+    <control status="0xB2" midino="0x22" action="jog" deck="2"/>
+    <control status="0xB3" midino="0x22" action="jog" deck="3"/>
+    <control status="0xB0" midino="0x22" action="jog-bend" deck="0"/>
+    <control status="0xB1" midino="0x22" action="jog-bend" deck="1"/>
+    <control status="0xB2" midino="0x22" action="jog-bend" deck="2"/>
+    <control status="0xB3" midino="0x22" action="jog-bend" deck="3"/>
+    <control status="0xB0" midino="0x29" action="jog-search" deck="0"/>
+    <control status="0xB1" midino="0x29" action="jog-search" deck="1"/>
+    <control status="0xB2" midino="0x29" action="jog-search" deck="2"/>
+    <control status="0xB3" midino="0x29" action="jog-search" deck="3"/>
+    <control status="0x90" midino="0x20" action="jog-touch" deck="0"/>
+    <control status="0x91" midino="0x20" action="jog-touch" deck="1"/>
+    <control status="0x92" midino="0x20" action="jog-touch" deck="2"/>
+    <control status="0x93" midino="0x20" action="jog-touch" deck="3"/>
+    <control status="0x90" midino="0x48" action="jog-touch" deck="0"/>
+    <control status="0x91" midino="0x48" action="jog-touch" deck="1"/>
+    <control status="0x92" midino="0x48" action="jog-touch" deck="2"/>
+    <control status="0x93" midino="0x48" action="jog-touch" deck="3"/>
+    <control status="0xB0" midino="0x21" action="jog-bend" deck="0"/>
+    <control status="0xB1" midino="0x21" action="jog-bend" deck="1"/>
+    <control status="0xB2" midino="0x21" action="jog-bend" deck="2"/>
+    <control status="0xB3" midino="0x21" action="jog-bend" deck="3"/>
+    <control status="0xB0" midino="0x26" action="jog-search" deck="0"/>
+    <control status="0xB1" midino="0x26" action="jog-search" deck="1"/>
+    <control status="0xB2" midino="0x26" action="jog-search" deck="2"/>
+    <control status="0xB3" midino="0x26" action="jog-search" deck="3"/>
+    <control status="0xB0" midino="0x00" action="tempo-hw" deck="0" hires="true"/>
+    <control status="0xB1" midino="0x00" action="tempo-hw" deck="1" hires="true"/>
+    <control status="0xB2" midino="0x00" action="tempo-hw" deck="2" hires="true"/>
+    <control status="0xB3" midino="0x00" action="tempo-hw" deck="3" hires="true"/>
+    <control status="0x90" midino="0x10" action="tempo-range" deck="0"/>
+    <control status="0x91" midino="0x10" action="tempo-range" deck="1"/>
+    <control status="0x92" midino="0x10" action="tempo-range" deck="2"/>
+    <control status="0x93" midino="0x10" action="tempo-range" deck="3"/>
+    <control status="0x90" midino="0x1F" action="sync" deck="0"/>
+    <control status="0x91" midino="0x1F" action="sync" deck="1"/>
+    <control status="0x92" midino="0x1F" action="sync" deck="2"/>
+    <control status="0x93" midino="0x1F" action="sync" deck="3"/>
+    <control status="0x90" midino="0x1E" action="hw-master" deck="0"/>
+    <control status="0x91" midino="0x1E" action="hw-master" deck="1"/>
+    <control status="0x92" midino="0x1E" action="hw-master" deck="2"/>
+    <control status="0x93" midino="0x1E" action="hw-master" deck="3"/>
+    <control status="0x90" midino="0x06" action="loop-in" deck="0"/>
+    <control status="0x91" midino="0x06" action="loop-in" deck="1"/>
+    <control status="0x92" midino="0x06" action="loop-in" deck="2"/>
+    <control status="0x93" midino="0x06" action="loop-in" deck="3"/>
+    <control status="0x90" midino="0x45" action="loop-4" deck="0"/>
+    <control status="0x91" midino="0x45" action="loop-4" deck="1"/>
+    <control status="0x92" midino="0x45" action="loop-4" deck="2"/>
+    <control status="0x93" midino="0x45" action="loop-4" deck="3"/>
+    <control status="0x90" midino="0x07" action="loop-out" deck="0"/>
+    <control status="0x91" midino="0x07" action="loop-out" deck="1"/>
+    <control status="0x92" midino="0x07" action="loop-out" deck="2"/>
+    <control status="0x93" midino="0x07" action="loop-out" deck="3"/>
+    <control status="0x90" midino="0x08" action="reloop" deck="0"/>
+    <control status="0x91" midino="0x08" action="reloop" deck="1"/>
+    <control status="0x92" midino="0x08" action="reloop" deck="2"/>
+    <control status="0x93" midino="0x08" action="reloop" deck="3"/>
+    <control status="0x90" midino="0x12" action="vinyl" deck="0"/>
+    <control status="0x91" midino="0x12" action="vinyl" deck="1"/>
+    <control status="0x92" midino="0x12" action="vinyl" deck="2"/>
+    <control status="0x93" midino="0x12" action="vinyl" deck="3"/>
+    <control status="0x90" midino="0x0D" action="hw-memory-delete" deck="0"/>
+    <control status="0x91" midino="0x0D" action="hw-memory-delete" deck="1"/>
+    <control status="0x92" midino="0x0D" action="hw-memory-delete" deck="2"/>
+    <control status="0x93" midino="0x0D" action="hw-memory-delete" deck="3"/>
+    <control status="0x90" midino="0x0A" action="memory-cue" deck="0"/>
+    <control status="0x91" midino="0x0A" action="memory-cue" deck="1"/>
+    <control status="0x92" midino="0x0A" action="memory-cue" deck="2"/>
+    <control status="0x93" midino="0x0A" action="memory-cue" deck="3"/>
+    <control status="0xB4" midino="0x0B" action="crossfader" deck="0"/>
+    <control status="0xB4" midino="0x11" action="fader" deck="0"/>
+    <control status="0xB4" midino="0x12" action="fader" deck="1"/>
+    <control status="0xB4" midino="0x13" action="fader" deck="2"/>
+    <control status="0xB4" midino="0x14" action="fader" deck="3"/>
+    <control status="0xB4" midino="0x01" action="trim" deck="0"/>
+    <control status="0xB4" midino="0x06" action="trim" deck="1"/>
+    <control status="0xB4" midino="0x0C" action="trim" deck="2"/>
+    <control status="0xB4" midino="0x50" action="trim" deck="3"/>
+    <control status="0xB4" midino="0x02" action="eq-hi" deck="0"/>
+    <control status="0xB4" midino="0x07" action="eq-hi" deck="1"/>
+    <control status="0xB4" midino="0x0E" action="eq-hi" deck="2"/>
+    <control status="0xB4" midino="0x51" action="eq-hi" deck="3"/>
+    <control status="0xB4" midino="0x03" action="eq-mid" deck="0"/>
+    <control status="0xB4" midino="0x08" action="eq-mid" deck="1"/>
+    <control status="0xB4" midino="0x0F" action="eq-mid" deck="2"/>
+    <control status="0xB4" midino="0x5C" action="eq-mid" deck="3"/>
+    <control status="0xB4" midino="0x04" action="eq-low" deck="0"/>
+    <control status="0xB4" midino="0x09" action="eq-low" deck="1"/>
+    <control status="0xB4" midino="0x15" action="eq-low" deck="2"/>
+    <control status="0xB4" midino="0x52" action="eq-low" deck="3"/>
+    <control status="0xB4" midino="0x46" action="cue-monitor" deck="0"/>
+    <control status="0xB4" midino="0x47" action="cue-monitor" deck="1"/>
+    <control status="0xB4" midino="0x48" action="cue-monitor" deck="2"/>
+    <control status="0xB4" midino="0x49" action="cue-monitor" deck="3"/>
+    <control status="0xB4" midino="0x5B" action="fx-level-1" deck="0"/>
+    <control status="0xB4" midino="0x72" action="hw-fx-on" deck="0"/>
+    <control status="0xB4" midino="0x34" action="hw-fx-select" deck="0"/>
+    <control status="0xB4" midino="0x4C" action="fx-beat-down" deck="0"/>
+    <control status="0xB4" midino="0x4D" action="fx-beat-up" deck="0"/>
+    <control status="0xB4" midino="0x4E" action="hw-fx-tap" deck="0"/>
+    <control status="0xB4" midino="0x7E" action="hw-fx-auto" deck="0"/>
+    <control status="0xB4" midino="0x2A" action="hw-fx-pick" deck="0" arg="1"/>
+    <control status="0xB4" midino="0x37" action="hw-fx-pick" deck="0"/>
+    <control status="0xB4" midino="0x36" action="hw-fx-pick" deck="0" arg="2"/>
+    <control status="0xB4" midino="0x32" action="hw-fx-pick" deck="0" arg="3"/>
+    <control status="0xB4" midino="0x39" action="hw-fx-pick" deck="0" arg="4"/>
+    <control status="0xB4" midino="0x35" action="hw-fx-pick" deck="0" arg="8"/>
+    <control status="0xB4" midino="0x2E" action="hw-fx-pick" deck="0" arg="5"/>
+    <control status="0xB4" midino="0x27" action="hw-fx-assign" deck="0"/>
+    <control status="0xB4" midino="0x28" action="hw-fx-assign" deck="0" arg="1"/>
+    <control status="0xB4" midino="0x22" action="hw-fx-assign" deck="0" arg="2"/>
+    <control status="0xB4" midino="0x23" action="hw-fx-assign" deck="0" arg="3"/>
+    <control status="0xB4" midino="0x29" action="hw-fx-assign" deck="0" arg="4"/>
+    <control status="0xB4" midino="0x05" action="filter" deck="0"/>
+    <control status="0xB4" midino="0x0A" action="filter" deck="1"/>
+    <control status="0xB4" midino="0x16" action="filter" deck="2"/>
+    <control status="0xB4" midino="0x53" action="filter" deck="3"/>
+    <control status="0x95" midino="0x00" action="hw-pad" deck="0"/>
+    <control status="0x96" midino="0x00" action="hw-pad" deck="1"/>
+    <control status="0x97" midino="0x00" action="hw-pad" deck="2"/>
+    <control status="0x98" midino="0x00" action="hw-pad" deck="3"/>
+    <control status="0x95" midino="0x08" action="hw-pad-delete" deck="0"/>
+    <control status="0x96" midino="0x08" action="hw-pad-delete" deck="1"/>
+    <control status="0x97" midino="0x08" action="hw-pad-delete" deck="2"/>
+    <control status="0x98" midino="0x08" action="hw-pad-delete" deck="3"/>
+    <control status="0x95" midino="0x10" action="hw-pad" deck="0" arg="48"/>
+    <control status="0x96" midino="0x10" action="hw-pad" deck="1" arg="48"/>
+    <control status="0x97" midino="0x10" action="hw-pad" deck="2" arg="48"/>
+    <control status="0x98" midino="0x10" action="hw-pad" deck="3" arg="48"/>
+    <control status="0x95" midino="0x18" action="hw-pad" deck="0" arg="48"/>
+    <control status="0x96" midino="0x18" action="hw-pad" deck="1" arg="48"/>
+    <control status="0x97" midino="0x18" action="hw-pad" deck="2" arg="48"/>
+    <control status="0x98" midino="0x18" action="hw-pad" deck="3" arg="48"/>
+    <control status="0x95" midino="0x20" action="hw-pad" deck="0" arg="64"/>
+    <control status="0x96" midino="0x20" action="hw-pad" deck="1" arg="64"/>
+    <control status="0x97" midino="0x20" action="hw-pad" deck="2" arg="64"/>
+    <control status="0x98" midino="0x20" action="hw-pad" deck="3" arg="64"/>
+    <control status="0x95" midino="0x28" action="hw-pad" deck="0" arg="72"/>
+    <control status="0x96" midino="0x28" action="hw-pad" deck="1" arg="72"/>
+    <control status="0x97" midino="0x28" action="hw-pad" deck="2" arg="72"/>
+    <control status="0x98" midino="0x28" action="hw-pad" deck="3" arg="72"/>
+    <control status="0x95" midino="0x30" action="hw-pad" deck="0" arg="16"/>
+    <control status="0x96" midino="0x30" action="hw-pad" deck="1" arg="16"/>
+    <control status="0x97" midino="0x30" action="hw-pad" deck="2" arg="16"/>
+    <control status="0x98" midino="0x30" action="hw-pad" deck="3" arg="16"/>
+    <control status="0x95" midino="0x40" action="hw-pad" deck="0" arg="32"/>
+    <control status="0x96" midino="0x40" action="hw-pad" deck="1" arg="32"/>
+    <control status="0x97" midino="0x40" action="hw-pad" deck="2" arg="32"/>
+    <control status="0x98" midino="0x40" action="hw-pad" deck="3" arg="32"/>
+    <control status="0x95" midino="0x48" action="hw-pad-delete" deck="0"/>
+    <control status="0x96" midino="0x48" action="hw-pad-delete" deck="1"/>
+    <control status="0x97" midino="0x48" action="hw-pad-delete" deck="2"/>
+    <control status="0x98" midino="0x48" action="hw-pad-delete" deck="3"/>
+    <control status="0x95" midino="0x50" action="hw-pad" deck="0" arg="80"/>
+    <control status="0x96" midino="0x50" action="hw-pad" deck="1" arg="80"/>
+    <control status="0x97" midino="0x50" action="hw-pad" deck="2" arg="80"/>
+    <control status="0x98" midino="0x50" action="hw-pad" deck="3" arg="80"/>
+    <control status="0x95" midino="0x70" action="hw-sampler" deck="0"/>
+    <control status="0x96" midino="0x70" action="hw-sampler" deck="1"/>
+    <control status="0x97" midino="0x70" action="hw-sampler" deck="2"/>
+    <control status="0x98" midino="0x70" action="hw-sampler" deck="3"/>
+    <control status="0x95" midino="0x78" action="hw-sampler-stop" deck="0"/>
+    <control status="0x96" midino="0x78" action="hw-sampler-stop" deck="1"/>
+    <control status="0x97" midino="0x78" action="hw-sampler-stop" deck="2"/>
+    <control status="0x98" midino="0x78" action="hw-sampler-stop" deck="3"/>
+    <control status="0x95" midino="0x01" action="hw-pad" deck="0" arg="1"/>
+    <control status="0x96" midino="0x01" action="hw-pad" deck="1" arg="1"/>
+    <control status="0x97" midino="0x01" action="hw-pad" deck="2" arg="1"/>
+    <control status="0x98" midino="0x01" action="hw-pad" deck="3" arg="1"/>
+    <control status="0x95" midino="0x09" action="hw-pad-delete" deck="0" arg="1"/>
+    <control status="0x96" midino="0x09" action="hw-pad-delete" deck="1" arg="1"/>
+    <control status="0x97" midino="0x09" action="hw-pad-delete" deck="2" arg="1"/>
+    <control status="0x98" midino="0x09" action="hw-pad-delete" deck="3" arg="1"/>
+    <control status="0x95" midino="0x11" action="hw-pad" deck="0" arg="49"/>
+    <control status="0x96" midino="0x11" action="hw-pad" deck="1" arg="49"/>
+    <control status="0x97" midino="0x11" action="hw-pad" deck="2" arg="49"/>
+    <control status="0x98" midino="0x11" action="hw-pad" deck="3" arg="49"/>
+    <control status="0x95" midino="0x19" action="hw-pad" deck="0" arg="49"/>
+    <control status="0x96" midino="0x19" action="hw-pad" deck="1" arg="49"/>
+    <control status="0x97" midino="0x19" action="hw-pad" deck="2" arg="49"/>
+    <control status="0x98" midino="0x19" action="hw-pad" deck="3" arg="49"/>
+    <control status="0x95" midino="0x21" action="hw-pad" deck="0" arg="65"/>
+    <control status="0x96" midino="0x21" action="hw-pad" deck="1" arg="65"/>
+    <control status="0x97" midino="0x21" action="hw-pad" deck="2" arg="65"/>
+    <control status="0x98" midino="0x21" action="hw-pad" deck="3" arg="65"/>
+    <control status="0x95" midino="0x29" action="hw-pad" deck="0" arg="73"/>
+    <control status="0x96" midino="0x29" action="hw-pad" deck="1" arg="73"/>
+    <control status="0x97" midino="0x29" action="hw-pad" deck="2" arg="73"/>
+    <control status="0x98" midino="0x29" action="hw-pad" deck="3" arg="73"/>
+    <control status="0x95" midino="0x31" action="hw-pad" deck="0" arg="17"/>
+    <control status="0x96" midino="0x31" action="hw-pad" deck="1" arg="17"/>
+    <control status="0x97" midino="0x31" action="hw-pad" deck="2" arg="17"/>
+    <control status="0x98" midino="0x31" action="hw-pad" deck="3" arg="17"/>
+    <control status="0x95" midino="0x41" action="hw-pad" deck="0" arg="33"/>
+    <control status="0x96" midino="0x41" action="hw-pad" deck="1" arg="33"/>
+    <control status="0x97" midino="0x41" action="hw-pad" deck="2" arg="33"/>
+    <control status="0x98" midino="0x41" action="hw-pad" deck="3" arg="33"/>
+    <control status="0x95" midino="0x49" action="hw-pad-delete" deck="0" arg="1"/>
+    <control status="0x96" midino="0x49" action="hw-pad-delete" deck="1" arg="1"/>
+    <control status="0x97" midino="0x49" action="hw-pad-delete" deck="2" arg="1"/>
+    <control status="0x98" midino="0x49" action="hw-pad-delete" deck="3" arg="1"/>
+    <control status="0x95" midino="0x51" action="hw-pad" deck="0" arg="81"/>
+    <control status="0x96" midino="0x51" action="hw-pad" deck="1" arg="81"/>
+    <control status="0x97" midino="0x51" action="hw-pad" deck="2" arg="81"/>
+    <control status="0x98" midino="0x51" action="hw-pad" deck="3" arg="81"/>
+    <control status="0x95" midino="0x71" action="hw-sampler" deck="0" arg="1"/>
+    <control status="0x96" midino="0x71" action="hw-sampler" deck="1" arg="1"/>
+    <control status="0x97" midino="0x71" action="hw-sampler" deck="2" arg="1"/>
+    <control status="0x98" midino="0x71" action="hw-sampler" deck="3" arg="1"/>
+    <control status="0x95" midino="0x79" action="hw-sampler-stop" deck="0" arg="1"/>
+    <control status="0x96" midino="0x79" action="hw-sampler-stop" deck="1" arg="1"/>
+    <control status="0x97" midino="0x79" action="hw-sampler-stop" deck="2" arg="1"/>
+    <control status="0x98" midino="0x79" action="hw-sampler-stop" deck="3" arg="1"/>
+    <control status="0x95" midino="0x02" action="hw-pad" deck="0" arg="2"/>
+    <control status="0x96" midino="0x02" action="hw-pad" deck="1" arg="2"/>
+    <control status="0x97" midino="0x02" action="hw-pad" deck="2" arg="2"/>
+    <control status="0x98" midino="0x02" action="hw-pad" deck="3" arg="2"/>
+    <control status="0x95" midino="0x0A" action="hw-pad-delete" deck="0" arg="2"/>
+    <control status="0x96" midino="0x0A" action="hw-pad-delete" deck="1" arg="2"/>
+    <control status="0x97" midino="0x0A" action="hw-pad-delete" deck="2" arg="2"/>
+    <control status="0x98" midino="0x0A" action="hw-pad-delete" deck="3" arg="2"/>
+    <control status="0x95" midino="0x12" action="hw-pad" deck="0" arg="50"/>
+    <control status="0x96" midino="0x12" action="hw-pad" deck="1" arg="50"/>
+    <control status="0x97" midino="0x12" action="hw-pad" deck="2" arg="50"/>
+    <control status="0x98" midino="0x12" action="hw-pad" deck="3" arg="50"/>
+    <control status="0x95" midino="0x1A" action="hw-pad" deck="0" arg="50"/>
+    <control status="0x96" midino="0x1A" action="hw-pad" deck="1" arg="50"/>
+    <control status="0x97" midino="0x1A" action="hw-pad" deck="2" arg="50"/>
+    <control status="0x98" midino="0x1A" action="hw-pad" deck="3" arg="50"/>
+    <control status="0x95" midino="0x22" action="hw-pad" deck="0" arg="66"/>
+    <control status="0x96" midino="0x22" action="hw-pad" deck="1" arg="66"/>
+    <control status="0x97" midino="0x22" action="hw-pad" deck="2" arg="66"/>
+    <control status="0x98" midino="0x22" action="hw-pad" deck="3" arg="66"/>
+    <control status="0x95" midino="0x2A" action="hw-pad" deck="0" arg="74"/>
+    <control status="0x96" midino="0x2A" action="hw-pad" deck="1" arg="74"/>
+    <control status="0x97" midino="0x2A" action="hw-pad" deck="2" arg="74"/>
+    <control status="0x98" midino="0x2A" action="hw-pad" deck="3" arg="74"/>
+    <control status="0x95" midino="0x32" action="hw-pad" deck="0" arg="18"/>
+    <control status="0x96" midino="0x32" action="hw-pad" deck="1" arg="18"/>
+    <control status="0x97" midino="0x32" action="hw-pad" deck="2" arg="18"/>
+    <control status="0x98" midino="0x32" action="hw-pad" deck="3" arg="18"/>
+    <control status="0x95" midino="0x42" action="hw-pad" deck="0" arg="34"/>
+    <control status="0x96" midino="0x42" action="hw-pad" deck="1" arg="34"/>
+    <control status="0x97" midino="0x42" action="hw-pad" deck="2" arg="34"/>
+    <control status="0x98" midino="0x42" action="hw-pad" deck="3" arg="34"/>
+    <control status="0x95" midino="0x4A" action="hw-pad-delete" deck="0" arg="2"/>
+    <control status="0x96" midino="0x4A" action="hw-pad-delete" deck="1" arg="2"/>
+    <control status="0x97" midino="0x4A" action="hw-pad-delete" deck="2" arg="2"/>
+    <control status="0x98" midino="0x4A" action="hw-pad-delete" deck="3" arg="2"/>
+    <control status="0x95" midino="0x52" action="hw-pad" deck="0" arg="82"/>
+    <control status="0x96" midino="0x52" action="hw-pad" deck="1" arg="82"/>
+    <control status="0x97" midino="0x52" action="hw-pad" deck="2" arg="82"/>
+    <control status="0x98" midino="0x52" action="hw-pad" deck="3" arg="82"/>
+    <control status="0x95" midino="0x72" action="hw-sampler" deck="0" arg="2"/>
+    <control status="0x96" midino="0x72" action="hw-sampler" deck="1" arg="2"/>
+    <control status="0x97" midino="0x72" action="hw-sampler" deck="2" arg="2"/>
+    <control status="0x98" midino="0x72" action="hw-sampler" deck="3" arg="2"/>
+    <control status="0x95" midino="0x7A" action="hw-sampler-stop" deck="0" arg="2"/>
+    <control status="0x96" midino="0x7A" action="hw-sampler-stop" deck="1" arg="2"/>
+    <control status="0x97" midino="0x7A" action="hw-sampler-stop" deck="2" arg="2"/>
+    <control status="0x98" midino="0x7A" action="hw-sampler-stop" deck="3" arg="2"/>
+    <control status="0x95" midino="0x03" action="hw-pad" deck="0" arg="3"/>
+    <control status="0x96" midino="0x03" action="hw-pad" deck="1" arg="3"/>
+    <control status="0x97" midino="0x03" action="hw-pad" deck="2" arg="3"/>
+    <control status="0x98" midino="0x03" action="hw-pad" deck="3" arg="3"/>
+    <control status="0x95" midino="0x0B" action="hw-pad-delete" deck="0" arg="3"/>
+    <control status="0x96" midino="0x0B" action="hw-pad-delete" deck="1" arg="3"/>
+    <control status="0x97" midino="0x0B" action="hw-pad-delete" deck="2" arg="3"/>
+    <control status="0x98" midino="0x0B" action="hw-pad-delete" deck="3" arg="3"/>
+    <control status="0x95" midino="0x13" action="hw-pad" deck="0" arg="51"/>
+    <control status="0x96" midino="0x13" action="hw-pad" deck="1" arg="51"/>
+    <control status="0x97" midino="0x13" action="hw-pad" deck="2" arg="51"/>
+    <control status="0x98" midino="0x13" action="hw-pad" deck="3" arg="51"/>
+    <control status="0x95" midino="0x1B" action="hw-pad" deck="0" arg="51"/>
+    <control status="0x96" midino="0x1B" action="hw-pad" deck="1" arg="51"/>
+    <control status="0x97" midino="0x1B" action="hw-pad" deck="2" arg="51"/>
+    <control status="0x98" midino="0x1B" action="hw-pad" deck="3" arg="51"/>
+    <control status="0x95" midino="0x23" action="hw-pad" deck="0" arg="67"/>
+    <control status="0x96" midino="0x23" action="hw-pad" deck="1" arg="67"/>
+    <control status="0x97" midino="0x23" action="hw-pad" deck="2" arg="67"/>
+    <control status="0x98" midino="0x23" action="hw-pad" deck="3" arg="67"/>
+    <control status="0x95" midino="0x2B" action="hw-pad" deck="0" arg="75"/>
+    <control status="0x96" midino="0x2B" action="hw-pad" deck="1" arg="75"/>
+    <control status="0x97" midino="0x2B" action="hw-pad" deck="2" arg="75"/>
+    <control status="0x98" midino="0x2B" action="hw-pad" deck="3" arg="75"/>
+    <control status="0x95" midino="0x33" action="hw-pad" deck="0" arg="19"/>
+    <control status="0x96" midino="0x33" action="hw-pad" deck="1" arg="19"/>
+    <control status="0x97" midino="0x33" action="hw-pad" deck="2" arg="19"/>
+    <control status="0x98" midino="0x33" action="hw-pad" deck="3" arg="19"/>
+    <control status="0x95" midino="0x43" action="hw-pad" deck="0" arg="35"/>
+    <control status="0x96" midino="0x43" action="hw-pad" deck="1" arg="35"/>
+    <control status="0x97" midino="0x43" action="hw-pad" deck="2" arg="35"/>
+    <control status="0x98" midino="0x43" action="hw-pad" deck="3" arg="35"/>
+    <control status="0x95" midino="0x4B" action="hw-pad-delete" deck="0" arg="3"/>
+    <control status="0x96" midino="0x4B" action="hw-pad-delete" deck="1" arg="3"/>
+    <control status="0x97" midino="0x4B" action="hw-pad-delete" deck="2" arg="3"/>
+    <control status="0x98" midino="0x4B" action="hw-pad-delete" deck="3" arg="3"/>
+    <control status="0x95" midino="0x53" action="hw-pad" deck="0" arg="83"/>
+    <control status="0x96" midino="0x53" action="hw-pad" deck="1" arg="83"/>
+    <control status="0x97" midino="0x53" action="hw-pad" deck="2" arg="83"/>
+    <control status="0x98" midino="0x53" action="hw-pad" deck="3" arg="83"/>
+    <control status="0x95" midino="0x73" action="hw-sampler" deck="0" arg="3"/>
+    <control status="0x96" midino="0x73" action="hw-sampler" deck="1" arg="3"/>
+    <control status="0x97" midino="0x73" action="hw-sampler" deck="2" arg="3"/>
+    <control status="0x98" midino="0x73" action="hw-sampler" deck="3" arg="3"/>
+    <control status="0x95" midino="0x7B" action="hw-sampler-stop" deck="0" arg="3"/>
+    <control status="0x96" midino="0x7B" action="hw-sampler-stop" deck="1" arg="3"/>
+    <control status="0x97" midino="0x7B" action="hw-sampler-stop" deck="2" arg="3"/>
+    <control status="0x98" midino="0x7B" action="hw-sampler-stop" deck="3" arg="3"/>
+    <control status="0x95" midino="0x04" action="hw-pad" deck="0" arg="4"/>
+    <control status="0x96" midino="0x04" action="hw-pad" deck="1" arg="4"/>
+    <control status="0x97" midino="0x04" action="hw-pad" deck="2" arg="4"/>
+    <control status="0x98" midino="0x04" action="hw-pad" deck="3" arg="4"/>
+    <control status="0x95" midino="0x0C" action="hw-pad-delete" deck="0" arg="4"/>
+    <control status="0x96" midino="0x0C" action="hw-pad-delete" deck="1" arg="4"/>
+    <control status="0x97" midino="0x0C" action="hw-pad-delete" deck="2" arg="4"/>
+    <control status="0x98" midino="0x0C" action="hw-pad-delete" deck="3" arg="4"/>
+    <control status="0x95" midino="0x14" action="hw-pad" deck="0" arg="52"/>
+    <control status="0x96" midino="0x14" action="hw-pad" deck="1" arg="52"/>
+    <control status="0x97" midino="0x14" action="hw-pad" deck="2" arg="52"/>
+    <control status="0x98" midino="0x14" action="hw-pad" deck="3" arg="52"/>
+    <control status="0x95" midino="0x1C" action="hw-pad" deck="0" arg="52"/>
+    <control status="0x96" midino="0x1C" action="hw-pad" deck="1" arg="52"/>
+    <control status="0x97" midino="0x1C" action="hw-pad" deck="2" arg="52"/>
+    <control status="0x98" midino="0x1C" action="hw-pad" deck="3" arg="52"/>
+    <control status="0x95" midino="0x24" action="hw-pad" deck="0" arg="68"/>
+    <control status="0x96" midino="0x24" action="hw-pad" deck="1" arg="68"/>
+    <control status="0x97" midino="0x24" action="hw-pad" deck="2" arg="68"/>
+    <control status="0x98" midino="0x24" action="hw-pad" deck="3" arg="68"/>
+    <control status="0x95" midino="0x2C" action="hw-pad" deck="0" arg="76"/>
+    <control status="0x96" midino="0x2C" action="hw-pad" deck="1" arg="76"/>
+    <control status="0x97" midino="0x2C" action="hw-pad" deck="2" arg="76"/>
+    <control status="0x98" midino="0x2C" action="hw-pad" deck="3" arg="76"/>
+    <control status="0x95" midino="0x34" action="hw-pad" deck="0" arg="20"/>
+    <control status="0x96" midino="0x34" action="hw-pad" deck="1" arg="20"/>
+    <control status="0x97" midino="0x34" action="hw-pad" deck="2" arg="20"/>
+    <control status="0x98" midino="0x34" action="hw-pad" deck="3" arg="20"/>
+    <control status="0x95" midino="0x44" action="hw-pad" deck="0" arg="36"/>
+    <control status="0x96" midino="0x44" action="hw-pad" deck="1" arg="36"/>
+    <control status="0x97" midino="0x44" action="hw-pad" deck="2" arg="36"/>
+    <control status="0x98" midino="0x44" action="hw-pad" deck="3" arg="36"/>
+    <control status="0x95" midino="0x4C" action="hw-pad-delete" deck="0" arg="4"/>
+    <control status="0x96" midino="0x4C" action="hw-pad-delete" deck="1" arg="4"/>
+    <control status="0x97" midino="0x4C" action="hw-pad-delete" deck="2" arg="4"/>
+    <control status="0x98" midino="0x4C" action="hw-pad-delete" deck="3" arg="4"/>
+    <control status="0x95" midino="0x54" action="hw-pad" deck="0" arg="84"/>
+    <control status="0x96" midino="0x54" action="hw-pad" deck="1" arg="84"/>
+    <control status="0x97" midino="0x54" action="hw-pad" deck="2" arg="84"/>
+    <control status="0x98" midino="0x54" action="hw-pad" deck="3" arg="84"/>
+    <control status="0x95" midino="0x74" action="hw-sampler" deck="0" arg="4"/>
+    <control status="0x96" midino="0x74" action="hw-sampler" deck="1" arg="4"/>
+    <control status="0x97" midino="0x74" action="hw-sampler" deck="2" arg="4"/>
+    <control status="0x98" midino="0x74" action="hw-sampler" deck="3" arg="4"/>
+    <control status="0x95" midino="0x7C" action="hw-sampler-stop" deck="0" arg="4"/>
+    <control status="0x96" midino="0x7C" action="hw-sampler-stop" deck="1" arg="4"/>
+    <control status="0x97" midino="0x7C" action="hw-sampler-stop" deck="2" arg="4"/>
+    <control status="0x98" midino="0x7C" action="hw-sampler-stop" deck="3" arg="4"/>
+    <control status="0x95" midino="0x05" action="hw-pad" deck="0" arg="5"/>
+    <control status="0x96" midino="0x05" action="hw-pad" deck="1" arg="5"/>
+    <control status="0x97" midino="0x05" action="hw-pad" deck="2" arg="5"/>
+    <control status="0x98" midino="0x05" action="hw-pad" deck="3" arg="5"/>
+    <control status="0x95" midino="0x0D" action="hw-pad-delete" deck="0" arg="5"/>
+    <control status="0x96" midino="0x0D" action="hw-pad-delete" deck="1" arg="5"/>
+    <control status="0x97" midino="0x0D" action="hw-pad-delete" deck="2" arg="5"/>
+    <control status="0x98" midino="0x0D" action="hw-pad-delete" deck="3" arg="5"/>
+    <control status="0x95" midino="0x15" action="hw-pad" deck="0" arg="53"/>
+    <control status="0x96" midino="0x15" action="hw-pad" deck="1" arg="53"/>
+    <control status="0x97" midino="0x15" action="hw-pad" deck="2" arg="53"/>
+    <control status="0x98" midino="0x15" action="hw-pad" deck="3" arg="53"/>
+    <control status="0x95" midino="0x1D" action="hw-pad" deck="0" arg="53"/>
+    <control status="0x96" midino="0x1D" action="hw-pad" deck="1" arg="53"/>
+    <control status="0x97" midino="0x1D" action="hw-pad" deck="2" arg="53"/>
+    <control status="0x98" midino="0x1D" action="hw-pad" deck="3" arg="53"/>
+    <control status="0x95" midino="0x25" action="hw-pad" deck="0" arg="69"/>
+    <control status="0x96" midino="0x25" action="hw-pad" deck="1" arg="69"/>
+    <control status="0x97" midino="0x25" action="hw-pad" deck="2" arg="69"/>
+    <control status="0x98" midino="0x25" action="hw-pad" deck="3" arg="69"/>
+    <control status="0x95" midino="0x2D" action="hw-pad" deck="0" arg="77"/>
+    <control status="0x96" midino="0x2D" action="hw-pad" deck="1" arg="77"/>
+    <control status="0x97" midino="0x2D" action="hw-pad" deck="2" arg="77"/>
+    <control status="0x98" midino="0x2D" action="hw-pad" deck="3" arg="77"/>
+    <control status="0x95" midino="0x35" action="hw-pad" deck="0" arg="21"/>
+    <control status="0x96" midino="0x35" action="hw-pad" deck="1" arg="21"/>
+    <control status="0x97" midino="0x35" action="hw-pad" deck="2" arg="21"/>
+    <control status="0x98" midino="0x35" action="hw-pad" deck="3" arg="21"/>
+    <control status="0x95" midino="0x45" action="hw-pad" deck="0" arg="37"/>
+    <control status="0x96" midino="0x45" action="hw-pad" deck="1" arg="37"/>
+    <control status="0x97" midino="0x45" action="hw-pad" deck="2" arg="37"/>
+    <control status="0x98" midino="0x45" action="hw-pad" deck="3" arg="37"/>
+    <control status="0x95" midino="0x4D" action="hw-pad-delete" deck="0" arg="5"/>
+    <control status="0x96" midino="0x4D" action="hw-pad-delete" deck="1" arg="5"/>
+    <control status="0x97" midino="0x4D" action="hw-pad-delete" deck="2" arg="5"/>
+    <control status="0x98" midino="0x4D" action="hw-pad-delete" deck="3" arg="5"/>
+    <control status="0x95" midino="0x55" action="hw-pad" deck="0" arg="85"/>
+    <control status="0x96" midino="0x55" action="hw-pad" deck="1" arg="85"/>
+    <control status="0x97" midino="0x55" action="hw-pad" deck="2" arg="85"/>
+    <control status="0x98" midino="0x55" action="hw-pad" deck="3" arg="85"/>
+    <control status="0x95" midino="0x75" action="hw-sampler" deck="0" arg="5"/>
+    <control status="0x96" midino="0x75" action="hw-sampler" deck="1" arg="5"/>
+    <control status="0x97" midino="0x75" action="hw-sampler" deck="2" arg="5"/>
+    <control status="0x98" midino="0x75" action="hw-sampler" deck="3" arg="5"/>
+    <control status="0x95" midino="0x7D" action="hw-sampler-stop" deck="0" arg="5"/>
+    <control status="0x96" midino="0x7D" action="hw-sampler-stop" deck="1" arg="5"/>
+    <control status="0x97" midino="0x7D" action="hw-sampler-stop" deck="2" arg="5"/>
+    <control status="0x98" midino="0x7D" action="hw-sampler-stop" deck="3" arg="5"/>
+    <control status="0x95" midino="0x06" action="hw-pad" deck="0" arg="6"/>
+    <control status="0x96" midino="0x06" action="hw-pad" deck="1" arg="6"/>
+    <control status="0x97" midino="0x06" action="hw-pad" deck="2" arg="6"/>
+    <control status="0x98" midino="0x06" action="hw-pad" deck="3" arg="6"/>
+    <control status="0x95" midino="0x0E" action="hw-pad-delete" deck="0" arg="6"/>
+    <control status="0x96" midino="0x0E" action="hw-pad-delete" deck="1" arg="6"/>
+    <control status="0x97" midino="0x0E" action="hw-pad-delete" deck="2" arg="6"/>
+    <control status="0x98" midino="0x0E" action="hw-pad-delete" deck="3" arg="6"/>
+    <control status="0x95" midino="0x16" action="hw-pad" deck="0" arg="54"/>
+    <control status="0x96" midino="0x16" action="hw-pad" deck="1" arg="54"/>
+    <control status="0x97" midino="0x16" action="hw-pad" deck="2" arg="54"/>
+    <control status="0x98" midino="0x16" action="hw-pad" deck="3" arg="54"/>
+    <control status="0x95" midino="0x1E" action="hw-pad" deck="0" arg="54"/>
+    <control status="0x96" midino="0x1E" action="hw-pad" deck="1" arg="54"/>
+    <control status="0x97" midino="0x1E" action="hw-pad" deck="2" arg="54"/>
+    <control status="0x98" midino="0x1E" action="hw-pad" deck="3" arg="54"/>
+    <control status="0x95" midino="0x26" action="hw-pad" deck="0" arg="70"/>
+    <control status="0x96" midino="0x26" action="hw-pad" deck="1" arg="70"/>
+    <control status="0x97" midino="0x26" action="hw-pad" deck="2" arg="70"/>
+    <control status="0x98" midino="0x26" action="hw-pad" deck="3" arg="70"/>
+    <control status="0x95" midino="0x2E" action="hw-pad" deck="0" arg="78"/>
+    <control status="0x96" midino="0x2E" action="hw-pad" deck="1" arg="78"/>
+    <control status="0x97" midino="0x2E" action="hw-pad" deck="2" arg="78"/>
+    <control status="0x98" midino="0x2E" action="hw-pad" deck="3" arg="78"/>
+    <control status="0x95" midino="0x36" action="hw-pad" deck="0" arg="22"/>
+    <control status="0x96" midino="0x36" action="hw-pad" deck="1" arg="22"/>
+    <control status="0x97" midino="0x36" action="hw-pad" deck="2" arg="22"/>
+    <control status="0x98" midino="0x36" action="hw-pad" deck="3" arg="22"/>
+    <control status="0x95" midino="0x46" action="hw-pad" deck="0" arg="38"/>
+    <control status="0x96" midino="0x46" action="hw-pad" deck="1" arg="38"/>
+    <control status="0x97" midino="0x46" action="hw-pad" deck="2" arg="38"/>
+    <control status="0x98" midino="0x46" action="hw-pad" deck="3" arg="38"/>
+    <control status="0x95" midino="0x4E" action="hw-pad-page" deck="0" arg="1"/>
+    <control status="0x96" midino="0x4E" action="hw-pad-page" deck="1" arg="1"/>
+    <control status="0x97" midino="0x4E" action="hw-pad-page" deck="2" arg="1"/>
+    <control status="0x98" midino="0x4E" action="hw-pad-page" deck="3" arg="1"/>
+    <control status="0x95" midino="0x56" action="hw-pad" deck="0" arg="86"/>
+    <control status="0x96" midino="0x56" action="hw-pad" deck="1" arg="86"/>
+    <control status="0x97" midino="0x56" action="hw-pad" deck="2" arg="86"/>
+    <control status="0x98" midino="0x56" action="hw-pad" deck="3" arg="86"/>
+    <control status="0x95" midino="0x5E" action="hw-pad-page" deck="0" arg="1"/>
+    <control status="0x96" midino="0x5E" action="hw-pad-page" deck="1" arg="1"/>
+    <control status="0x97" midino="0x5E" action="hw-pad-page" deck="2" arg="1"/>
+    <control status="0x98" midino="0x5E" action="hw-pad-page" deck="3" arg="1"/>
+    <control status="0x95" midino="0x76" action="hw-sampler" deck="0" arg="6"/>
+    <control status="0x96" midino="0x76" action="hw-sampler" deck="1" arg="6"/>
+    <control status="0x97" midino="0x76" action="hw-sampler" deck="2" arg="6"/>
+    <control status="0x98" midino="0x76" action="hw-sampler" deck="3" arg="6"/>
+    <control status="0x95" midino="0x7E" action="hw-sampler-stop" deck="0" arg="6"/>
+    <control status="0x96" midino="0x7E" action="hw-sampler-stop" deck="1" arg="6"/>
+    <control status="0x97" midino="0x7E" action="hw-sampler-stop" deck="2" arg="6"/>
+    <control status="0x98" midino="0x7E" action="hw-sampler-stop" deck="3" arg="6"/>
+    <control status="0x95" midino="0x07" action="hw-pad" deck="0" arg="7"/>
+    <control status="0x96" midino="0x07" action="hw-pad" deck="1" arg="7"/>
+    <control status="0x97" midino="0x07" action="hw-pad" deck="2" arg="7"/>
+    <control status="0x98" midino="0x07" action="hw-pad" deck="3" arg="7"/>
+    <control status="0x95" midino="0x0F" action="hw-pad-delete" deck="0" arg="7"/>
+    <control status="0x96" midino="0x0F" action="hw-pad-delete" deck="1" arg="7"/>
+    <control status="0x97" midino="0x0F" action="hw-pad-delete" deck="2" arg="7"/>
+    <control status="0x98" midino="0x0F" action="hw-pad-delete" deck="3" arg="7"/>
+    <control status="0x95" midino="0x17" action="hw-pad" deck="0" arg="55"/>
+    <control status="0x96" midino="0x17" action="hw-pad" deck="1" arg="55"/>
+    <control status="0x97" midino="0x17" action="hw-pad" deck="2" arg="55"/>
+    <control status="0x98" midino="0x17" action="hw-pad" deck="3" arg="55"/>
+    <control status="0x95" midino="0x1F" action="hw-pad" deck="0" arg="55"/>
+    <control status="0x96" midino="0x1F" action="hw-pad" deck="1" arg="55"/>
+    <control status="0x97" midino="0x1F" action="hw-pad" deck="2" arg="55"/>
+    <control status="0x98" midino="0x1F" action="hw-pad" deck="3" arg="55"/>
+    <control status="0x95" midino="0x27" action="hw-pad" deck="0" arg="71"/>
+    <control status="0x96" midino="0x27" action="hw-pad" deck="1" arg="71"/>
+    <control status="0x97" midino="0x27" action="hw-pad" deck="2" arg="71"/>
+    <control status="0x98" midino="0x27" action="hw-pad" deck="3" arg="71"/>
+    <control status="0x95" midino="0x2F" action="hw-pad" deck="0" arg="79"/>
+    <control status="0x96" midino="0x2F" action="hw-pad" deck="1" arg="79"/>
+    <control status="0x97" midino="0x2F" action="hw-pad" deck="2" arg="79"/>
+    <control status="0x98" midino="0x2F" action="hw-pad" deck="3" arg="79"/>
+    <control status="0x95" midino="0x37" action="hw-pad" deck="0" arg="23"/>
+    <control status="0x96" midino="0x37" action="hw-pad" deck="1" arg="23"/>
+    <control status="0x97" midino="0x37" action="hw-pad" deck="2" arg="23"/>
+    <control status="0x98" midino="0x37" action="hw-pad" deck="3" arg="23"/>
+    <control status="0x95" midino="0x47" action="hw-pad" deck="0" arg="39"/>
+    <control status="0x96" midino="0x47" action="hw-pad" deck="1" arg="39"/>
+    <control status="0x97" midino="0x47" action="hw-pad" deck="2" arg="39"/>
+    <control status="0x98" midino="0x47" action="hw-pad" deck="3" arg="39"/>
+    <control status="0x95" midino="0x4F" action="hw-pad-page" deck="0" arg="-1"/>
+    <control status="0x96" midino="0x4F" action="hw-pad-page" deck="1" arg="-1"/>
+    <control status="0x97" midino="0x4F" action="hw-pad-page" deck="2" arg="-1"/>
+    <control status="0x98" midino="0x4F" action="hw-pad-page" deck="3" arg="-1"/>
+    <control status="0x95" midino="0x57" action="hw-pad" deck="0" arg="87"/>
+    <control status="0x96" midino="0x57" action="hw-pad" deck="1" arg="87"/>
+    <control status="0x97" midino="0x57" action="hw-pad" deck="2" arg="87"/>
+    <control status="0x98" midino="0x57" action="hw-pad" deck="3" arg="87"/>
+    <control status="0x95" midino="0x5F" action="hw-pad-page" deck="0" arg="-1"/>
+    <control status="0x96" midino="0x5F" action="hw-pad-page" deck="1" arg="-1"/>
+    <control status="0x97" midino="0x5F" action="hw-pad-page" deck="2" arg="-1"/>
+    <control status="0x98" midino="0x5F" action="hw-pad-page" deck="3" arg="-1"/>
+    <control status="0x95" midino="0x77" action="hw-sampler" deck="0" arg="7"/>
+    <control status="0x96" midino="0x77" action="hw-sampler" deck="1" arg="7"/>
+    <control status="0x97" midino="0x77" action="hw-sampler" deck="2" arg="7"/>
+    <control status="0x98" midino="0x77" action="hw-sampler" deck="3" arg="7"/>
+    <control status="0x95" midino="0x7F" action="hw-sampler-stop" deck="0" arg="7"/>
+    <control status="0x96" midino="0x7F" action="hw-sampler-stop" deck="1" arg="7"/>
+    <control status="0x97" midino="0x7F" action="hw-sampler-stop" deck="2" arg="7"/>
+    <control status="0x98" midino="0x7F" action="hw-sampler-stop" deck="3" arg="7"/>
+    <control status="0x90" midino="0x22" action="hw-pad-mode" deck="0"/>
+    <control status="0x91" midino="0x22" action="hw-pad-mode" deck="1"/>
+    <control status="0x92" midino="0x22" action="hw-pad-mode" deck="2"/>
+    <control status="0x93" midino="0x22" action="hw-pad-mode" deck="3"/>
+    <control status="0x90" midino="0x26" action="hw-pad-mode" deck="0" arg="2"/>
+    <control status="0x91" midino="0x26" action="hw-pad-mode" deck="1" arg="2"/>
+    <control status="0x92" midino="0x26" action="hw-pad-mode" deck="2" arg="2"/>
+    <control status="0x93" midino="0x26" action="hw-pad-mode" deck="3" arg="2"/>
+    <control status="0x90" midino="0x23" action="hw-pad-mode" deck="0" arg="3"/>
+    <control status="0x91" midino="0x23" action="hw-pad-mode" deck="1" arg="3"/>
+    <control status="0x92" midino="0x23" action="hw-pad-mode" deck="2" arg="3"/>
+    <control status="0x93" midino="0x23" action="hw-pad-mode" deck="3" arg="3"/>
+    <control status="0x90" midino="0x27" action="hw-pad-mode" deck="0" arg="5"/>
+    <control status="0x91" midino="0x27" action="hw-pad-mode" deck="1" arg="5"/>
+    <control status="0x92" midino="0x27" action="hw-pad-mode" deck="2" arg="5"/>
+    <control status="0x93" midino="0x27" action="hw-pad-mode" deck="3" arg="5"/>
+    <control status="0x90" midino="0x24" action="hw-pad-mode" deck="0" arg="4"/>
+    <control status="0x91" midino="0x24" action="hw-pad-mode" deck="1" arg="4"/>
+    <control status="0x92" midino="0x24" action="hw-pad-mode" deck="2" arg="4"/>
+    <control status="0x93" midino="0x24" action="hw-pad-mode" deck="3" arg="4"/>
+    <control status="0x90" midino="0x25" action="hw-pad-mode" deck="0" arg="1"/>
+    <control status="0x91" midino="0x25" action="hw-pad-mode" deck="1" arg="1"/>
+    <control status="0x92" midino="0x25" action="hw-pad-mode" deck="2" arg="1"/>
+    <control status="0x93" midino="0x25" action="hw-pad-mode" deck="3" arg="1"/>
+    <control status="0x90" midino="0x29" action="sampler-open" deck="0"/>
+    <control status="0x91" midino="0x29" action="sampler-open" deck="1"/>
+    <control status="0x92" midino="0x29" action="sampler-open" deck="2"/>
+    <control status="0x93" midino="0x29" action="sampler-open" deck="3"/>
+    <control status="0xB0" midino="0x66" action="hw-deck-select" deck="0"/>
+    <control status="0xB1" midino="0x66" action="hw-deck-select" deck="1"/>
+    <control status="0xB2" midino="0x66" action="hw-deck-select" deck="2"/>
+    <control status="0xB3" midino="0x66" action="hw-deck-select" deck="3"/>
+  </controls>
+  <outputs>
+    <output status="0x90" midino="0x00" light="Play" deck="0"/>
+    <output status="0x91" midino="0x00" light="Play" deck="1"/>
+    <output status="0x92" midino="0x00" light="Play" deck="2"/>
+    <output status="0x93" midino="0x00" light="Play" deck="3"/>
+    <output status="0x90" midino="0x01" light="Cue" deck="0"/>
+    <output status="0x91" midino="0x01" light="Cue" deck="1"/>
+    <output status="0x92" midino="0x01" light="Cue" deck="2"/>
+    <output status="0x93" midino="0x01" light="Cue" deck="3"/>
+    <output status="0x90" midino="0x1F" light="Sync" deck="0" blink="600"/>
+    <output status="0x91" midino="0x1F" light="Sync" deck="1" blink="600"/>
+    <output status="0x92" midino="0x1F" light="Sync" deck="2" blink="600"/>
+    <output status="0x93" midino="0x1F" light="Sync" deck="3" blink="600"/>
+    <output status="0x90" midino="0x1E" light="Master" deck="0"/>
+    <output status="0x91" midino="0x1E" light="Master" deck="1"/>
+    <output status="0x92" midino="0x1E" light="Master" deck="2"/>
+    <output status="0x93" midino="0x1E" light="Master" deck="3"/>
+    <output status="0x90" midino="0x06" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x06" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x06" light="Loop" deck="2"/>
+    <output status="0x93" midino="0x06" light="Loop" deck="3"/>
+    <output status="0x90" midino="0x45" light="Loop4" deck="0"/>
+    <output status="0x91" midino="0x45" light="Loop4" deck="1"/>
+    <output status="0x92" midino="0x45" light="Loop4" deck="2"/>
+    <output status="0x93" midino="0x45" light="Loop4" deck="3"/>
+    <output status="0x90" midino="0x07" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x07" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x07" light="Loop" deck="2"/>
+    <output status="0x93" midino="0x07" light="Loop" deck="3"/>
+    <output status="0x90" midino="0x12" light="Vinyl" deck="0"/>
+    <output status="0x91" midino="0x12" light="Vinyl" deck="1"/>
+    <output status="0x92" midino="0x12" light="Vinyl" deck="2"/>
+    <output status="0x93" midino="0x12" light="Vinyl" deck="3"/>
+    <output status="0xB4" midino="0x46" light="HpCue" deck="0"/>
+    <output status="0xB4" midino="0x47" light="HpCue" deck="1"/>
+    <output status="0xB4" midino="0x48" light="HpCue" deck="2"/>
+    <output status="0xB4" midino="0x49" light="HpCue" deck="3"/>
+    <output status="0xB0" midino="0x02" light="Level" deck="0"/>
+    <output status="0xB1" midino="0x02" light="Level" deck="1"/>
+    <output status="0xB2" midino="0x02" light="Level" deck="2"/>
+    <output status="0xB3" midino="0x02" light="Level" deck="3"/>
+    <output status="0xB4" midino="0x72" light="Fx(0,0)" deck="0"/>
+    <output status="0xB4" midino="0x4E" light="FxTapped(0,true)" deck="0"/>
+    <output status="0xB4" midino="0x7E" light="FxTapped(0,false)" deck="0"/>
+    <output status="0x95" midino="0x00" light="Pad(0,0)" deck="0"/>
+    <output status="0x96" midino="0x00" light="Pad(0,0)" deck="1"/>
+    <output status="0x97" midino="0x00" light="Pad(0,0)" deck="2"/>
+    <output status="0x98" midino="0x00" light="Pad(0,0)" deck="3"/>
+    <output status="0x95" midino="0x08" light="Pad(0,0)" deck="0"/>
+    <output status="0x96" midino="0x08" light="Pad(0,0)" deck="1"/>
+    <output status="0x97" midino="0x08" light="Pad(0,0)" deck="2"/>
+    <output status="0x98" midino="0x08" light="Pad(0,0)" deck="3"/>
+    <output status="0x95" midino="0x10" light="Pad(3,0)" deck="0"/>
+    <output status="0x96" midino="0x10" light="Pad(3,0)" deck="1"/>
+    <output status="0x97" midino="0x10" light="Pad(3,0)" deck="2"/>
+    <output status="0x98" midino="0x10" light="Pad(3,0)" deck="3"/>
+    <output status="0x95" midino="0x18" light="Pad(3,0)" deck="0"/>
+    <output status="0x96" midino="0x18" light="Pad(3,0)" deck="1"/>
+    <output status="0x97" midino="0x18" light="Pad(3,0)" deck="2"/>
+    <output status="0x98" midino="0x18" light="Pad(3,0)" deck="3"/>
+    <output status="0x95" midino="0x20" light="Pad(4,0)" deck="0"/>
+    <output status="0x96" midino="0x20" light="Pad(4,0)" deck="1"/>
+    <output status="0x97" midino="0x20" light="Pad(4,0)" deck="2"/>
+    <output status="0x98" midino="0x20" light="Pad(4,0)" deck="3"/>
+    <output status="0x95" midino="0x28" light="Pad(4,8)" deck="0"/>
+    <output status="0x96" midino="0x28" light="Pad(4,8)" deck="1"/>
+    <output status="0x97" midino="0x28" light="Pad(4,8)" deck="2"/>
+    <output status="0x98" midino="0x28" light="Pad(4,8)" deck="3"/>
+    <output status="0x95" midino="0x30" light="Pad(1,0)" deck="0"/>
+    <output status="0x96" midino="0x30" light="Pad(1,0)" deck="1"/>
+    <output status="0x97" midino="0x30" light="Pad(1,0)" deck="2"/>
+    <output status="0x98" midino="0x30" light="Pad(1,0)" deck="3"/>
+    <output status="0x95" midino="0x40" light="Pad(2,0)" deck="0"/>
+    <output status="0x96" midino="0x40" light="Pad(2,0)" deck="1"/>
+    <output status="0x97" midino="0x40" light="Pad(2,0)" deck="2"/>
+    <output status="0x98" midino="0x40" light="Pad(2,0)" deck="3"/>
+    <output status="0x95" midino="0x48" light="Pad(2,0)" deck="0"/>
+    <output status="0x96" midino="0x48" light="Pad(2,0)" deck="1"/>
+    <output status="0x97" midino="0x48" light="Pad(2,0)" deck="2"/>
+    <output status="0x98" midino="0x48" light="Pad(2,0)" deck="3"/>
+    <output status="0x95" midino="0x50" light="Pad(5,0)" deck="0"/>
+    <output status="0x96" midino="0x50" light="Pad(5,0)" deck="1"/>
+    <output status="0x97" midino="0x50" light="Pad(5,0)" deck="2"/>
+    <output status="0x98" midino="0x50" light="Pad(5,0)" deck="3"/>
+    <output status="0x95" midino="0x70" light="SamplerPad(0)" deck="0"/>
+    <output status="0x96" midino="0x70" light="SamplerPad(0)" deck="1"/>
+    <output status="0x97" midino="0x70" light="SamplerPad(0)" deck="2"/>
+    <output status="0x98" midino="0x70" light="SamplerPad(0)" deck="3"/>
+    <output status="0x95" midino="0x78" light="SamplerPad(0)" deck="0"/>
+    <output status="0x96" midino="0x78" light="SamplerPad(0)" deck="1"/>
+    <output status="0x97" midino="0x78" light="SamplerPad(0)" deck="2"/>
+    <output status="0x98" midino="0x78" light="SamplerPad(0)" deck="3"/>
+    <output status="0x95" midino="0x01" light="Pad(0,1)" deck="0"/>
+    <output status="0x96" midino="0x01" light="Pad(0,1)" deck="1"/>
+    <output status="0x97" midino="0x01" light="Pad(0,1)" deck="2"/>
+    <output status="0x98" midino="0x01" light="Pad(0,1)" deck="3"/>
+    <output status="0x95" midino="0x09" light="Pad(0,1)" deck="0"/>
+    <output status="0x96" midino="0x09" light="Pad(0,1)" deck="1"/>
+    <output status="0x97" midino="0x09" light="Pad(0,1)" deck="2"/>
+    <output status="0x98" midino="0x09" light="Pad(0,1)" deck="3"/>
+    <output status="0x95" midino="0x11" light="Pad(3,1)" deck="0"/>
+    <output status="0x96" midino="0x11" light="Pad(3,1)" deck="1"/>
+    <output status="0x97" midino="0x11" light="Pad(3,1)" deck="2"/>
+    <output status="0x98" midino="0x11" light="Pad(3,1)" deck="3"/>
+    <output status="0x95" midino="0x19" light="Pad(3,1)" deck="0"/>
+    <output status="0x96" midino="0x19" light="Pad(3,1)" deck="1"/>
+    <output status="0x97" midino="0x19" light="Pad(3,1)" deck="2"/>
+    <output status="0x98" midino="0x19" light="Pad(3,1)" deck="3"/>
+    <output status="0x95" midino="0x21" light="Pad(4,1)" deck="0"/>
+    <output status="0x96" midino="0x21" light="Pad(4,1)" deck="1"/>
+    <output status="0x97" midino="0x21" light="Pad(4,1)" deck="2"/>
+    <output status="0x98" midino="0x21" light="Pad(4,1)" deck="3"/>
+    <output status="0x95" midino="0x29" light="Pad(4,9)" deck="0"/>
+    <output status="0x96" midino="0x29" light="Pad(4,9)" deck="1"/>
+    <output status="0x97" midino="0x29" light="Pad(4,9)" deck="2"/>
+    <output status="0x98" midino="0x29" light="Pad(4,9)" deck="3"/>
+    <output status="0x95" midino="0x31" light="Pad(1,1)" deck="0"/>
+    <output status="0x96" midino="0x31" light="Pad(1,1)" deck="1"/>
+    <output status="0x97" midino="0x31" light="Pad(1,1)" deck="2"/>
+    <output status="0x98" midino="0x31" light="Pad(1,1)" deck="3"/>
+    <output status="0x95" midino="0x41" light="Pad(2,1)" deck="0"/>
+    <output status="0x96" midino="0x41" light="Pad(2,1)" deck="1"/>
+    <output status="0x97" midino="0x41" light="Pad(2,1)" deck="2"/>
+    <output status="0x98" midino="0x41" light="Pad(2,1)" deck="3"/>
+    <output status="0x95" midino="0x49" light="Pad(2,1)" deck="0"/>
+    <output status="0x96" midino="0x49" light="Pad(2,1)" deck="1"/>
+    <output status="0x97" midino="0x49" light="Pad(2,1)" deck="2"/>
+    <output status="0x98" midino="0x49" light="Pad(2,1)" deck="3"/>
+    <output status="0x95" midino="0x51" light="Pad(5,1)" deck="0"/>
+    <output status="0x96" midino="0x51" light="Pad(5,1)" deck="1"/>
+    <output status="0x97" midino="0x51" light="Pad(5,1)" deck="2"/>
+    <output status="0x98" midino="0x51" light="Pad(5,1)" deck="3"/>
+    <output status="0x95" midino="0x71" light="SamplerPad(1)" deck="0"/>
+    <output status="0x96" midino="0x71" light="SamplerPad(1)" deck="1"/>
+    <output status="0x97" midino="0x71" light="SamplerPad(1)" deck="2"/>
+    <output status="0x98" midino="0x71" light="SamplerPad(1)" deck="3"/>
+    <output status="0x95" midino="0x79" light="SamplerPad(1)" deck="0"/>
+    <output status="0x96" midino="0x79" light="SamplerPad(1)" deck="1"/>
+    <output status="0x97" midino="0x79" light="SamplerPad(1)" deck="2"/>
+    <output status="0x98" midino="0x79" light="SamplerPad(1)" deck="3"/>
+    <output status="0x95" midino="0x02" light="Pad(0,2)" deck="0"/>
+    <output status="0x96" midino="0x02" light="Pad(0,2)" deck="1"/>
+    <output status="0x97" midino="0x02" light="Pad(0,2)" deck="2"/>
+    <output status="0x98" midino="0x02" light="Pad(0,2)" deck="3"/>
+    <output status="0x95" midino="0x0A" light="Pad(0,2)" deck="0"/>
+    <output status="0x96" midino="0x0A" light="Pad(0,2)" deck="1"/>
+    <output status="0x97" midino="0x0A" light="Pad(0,2)" deck="2"/>
+    <output status="0x98" midino="0x0A" light="Pad(0,2)" deck="3"/>
+    <output status="0x95" midino="0x12" light="Pad(3,2)" deck="0"/>
+    <output status="0x96" midino="0x12" light="Pad(3,2)" deck="1"/>
+    <output status="0x97" midino="0x12" light="Pad(3,2)" deck="2"/>
+    <output status="0x98" midino="0x12" light="Pad(3,2)" deck="3"/>
+    <output status="0x95" midino="0x1A" light="Pad(3,2)" deck="0"/>
+    <output status="0x96" midino="0x1A" light="Pad(3,2)" deck="1"/>
+    <output status="0x97" midino="0x1A" light="Pad(3,2)" deck="2"/>
+    <output status="0x98" midino="0x1A" light="Pad(3,2)" deck="3"/>
+    <output status="0x95" midino="0x22" light="Pad(4,2)" deck="0"/>
+    <output status="0x96" midino="0x22" light="Pad(4,2)" deck="1"/>
+    <output status="0x97" midino="0x22" light="Pad(4,2)" deck="2"/>
+    <output status="0x98" midino="0x22" light="Pad(4,2)" deck="3"/>
+    <output status="0x95" midino="0x2A" light="Pad(4,10)" deck="0"/>
+    <output status="0x96" midino="0x2A" light="Pad(4,10)" deck="1"/>
+    <output status="0x97" midino="0x2A" light="Pad(4,10)" deck="2"/>
+    <output status="0x98" midino="0x2A" light="Pad(4,10)" deck="3"/>
+    <output status="0x95" midino="0x32" light="Pad(1,2)" deck="0"/>
+    <output status="0x96" midino="0x32" light="Pad(1,2)" deck="1"/>
+    <output status="0x97" midino="0x32" light="Pad(1,2)" deck="2"/>
+    <output status="0x98" midino="0x32" light="Pad(1,2)" deck="3"/>
+    <output status="0x95" midino="0x42" light="Pad(2,2)" deck="0"/>
+    <output status="0x96" midino="0x42" light="Pad(2,2)" deck="1"/>
+    <output status="0x97" midino="0x42" light="Pad(2,2)" deck="2"/>
+    <output status="0x98" midino="0x42" light="Pad(2,2)" deck="3"/>
+    <output status="0x95" midino="0x4A" light="Pad(2,2)" deck="0"/>
+    <output status="0x96" midino="0x4A" light="Pad(2,2)" deck="1"/>
+    <output status="0x97" midino="0x4A" light="Pad(2,2)" deck="2"/>
+    <output status="0x98" midino="0x4A" light="Pad(2,2)" deck="3"/>
+    <output status="0x95" midino="0x52" light="Pad(5,2)" deck="0"/>
+    <output status="0x96" midino="0x52" light="Pad(5,2)" deck="1"/>
+    <output status="0x97" midino="0x52" light="Pad(5,2)" deck="2"/>
+    <output status="0x98" midino="0x52" light="Pad(5,2)" deck="3"/>
+    <output status="0x95" midino="0x72" light="SamplerPad(2)" deck="0"/>
+    <output status="0x96" midino="0x72" light="SamplerPad(2)" deck="1"/>
+    <output status="0x97" midino="0x72" light="SamplerPad(2)" deck="2"/>
+    <output status="0x98" midino="0x72" light="SamplerPad(2)" deck="3"/>
+    <output status="0x95" midino="0x7A" light="SamplerPad(2)" deck="0"/>
+    <output status="0x96" midino="0x7A" light="SamplerPad(2)" deck="1"/>
+    <output status="0x97" midino="0x7A" light="SamplerPad(2)" deck="2"/>
+    <output status="0x98" midino="0x7A" light="SamplerPad(2)" deck="3"/>
+    <output status="0x95" midino="0x03" light="Pad(0,3)" deck="0"/>
+    <output status="0x96" midino="0x03" light="Pad(0,3)" deck="1"/>
+    <output status="0x97" midino="0x03" light="Pad(0,3)" deck="2"/>
+    <output status="0x98" midino="0x03" light="Pad(0,3)" deck="3"/>
+    <output status="0x95" midino="0x0B" light="Pad(0,3)" deck="0"/>
+    <output status="0x96" midino="0x0B" light="Pad(0,3)" deck="1"/>
+    <output status="0x97" midino="0x0B" light="Pad(0,3)" deck="2"/>
+    <output status="0x98" midino="0x0B" light="Pad(0,3)" deck="3"/>
+    <output status="0x95" midino="0x13" light="Pad(3,3)" deck="0"/>
+    <output status="0x96" midino="0x13" light="Pad(3,3)" deck="1"/>
+    <output status="0x97" midino="0x13" light="Pad(3,3)" deck="2"/>
+    <output status="0x98" midino="0x13" light="Pad(3,3)" deck="3"/>
+    <output status="0x95" midino="0x1B" light="Pad(3,3)" deck="0"/>
+    <output status="0x96" midino="0x1B" light="Pad(3,3)" deck="1"/>
+    <output status="0x97" midino="0x1B" light="Pad(3,3)" deck="2"/>
+    <output status="0x98" midino="0x1B" light="Pad(3,3)" deck="3"/>
+    <output status="0x95" midino="0x23" light="Pad(4,3)" deck="0"/>
+    <output status="0x96" midino="0x23" light="Pad(4,3)" deck="1"/>
+    <output status="0x97" midino="0x23" light="Pad(4,3)" deck="2"/>
+    <output status="0x98" midino="0x23" light="Pad(4,3)" deck="3"/>
+    <output status="0x95" midino="0x2B" light="Pad(4,11)" deck="0"/>
+    <output status="0x96" midino="0x2B" light="Pad(4,11)" deck="1"/>
+    <output status="0x97" midino="0x2B" light="Pad(4,11)" deck="2"/>
+    <output status="0x98" midino="0x2B" light="Pad(4,11)" deck="3"/>
+    <output status="0x95" midino="0x33" light="Pad(1,3)" deck="0"/>
+    <output status="0x96" midino="0x33" light="Pad(1,3)" deck="1"/>
+    <output status="0x97" midino="0x33" light="Pad(1,3)" deck="2"/>
+    <output status="0x98" midino="0x33" light="Pad(1,3)" deck="3"/>
+    <output status="0x95" midino="0x43" light="Pad(2,3)" deck="0"/>
+    <output status="0x96" midino="0x43" light="Pad(2,3)" deck="1"/>
+    <output status="0x97" midino="0x43" light="Pad(2,3)" deck="2"/>
+    <output status="0x98" midino="0x43" light="Pad(2,3)" deck="3"/>
+    <output status="0x95" midino="0x4B" light="Pad(2,3)" deck="0"/>
+    <output status="0x96" midino="0x4B" light="Pad(2,3)" deck="1"/>
+    <output status="0x97" midino="0x4B" light="Pad(2,3)" deck="2"/>
+    <output status="0x98" midino="0x4B" light="Pad(2,3)" deck="3"/>
+    <output status="0x95" midino="0x53" light="Pad(5,3)" deck="0"/>
+    <output status="0x96" midino="0x53" light="Pad(5,3)" deck="1"/>
+    <output status="0x97" midino="0x53" light="Pad(5,3)" deck="2"/>
+    <output status="0x98" midino="0x53" light="Pad(5,3)" deck="3"/>
+    <output status="0x95" midino="0x73" light="SamplerPad(3)" deck="0"/>
+    <output status="0x96" midino="0x73" light="SamplerPad(3)" deck="1"/>
+    <output status="0x97" midino="0x73" light="SamplerPad(3)" deck="2"/>
+    <output status="0x98" midino="0x73" light="SamplerPad(3)" deck="3"/>
+    <output status="0x95" midino="0x7B" light="SamplerPad(3)" deck="0"/>
+    <output status="0x96" midino="0x7B" light="SamplerPad(3)" deck="1"/>
+    <output status="0x97" midino="0x7B" light="SamplerPad(3)" deck="2"/>
+    <output status="0x98" midino="0x7B" light="SamplerPad(3)" deck="3"/>
+    <output status="0x95" midino="0x04" light="Pad(0,4)" deck="0"/>
+    <output status="0x96" midino="0x04" light="Pad(0,4)" deck="1"/>
+    <output status="0x97" midino="0x04" light="Pad(0,4)" deck="2"/>
+    <output status="0x98" midino="0x04" light="Pad(0,4)" deck="3"/>
+    <output status="0x95" midino="0x0C" light="Pad(0,4)" deck="0"/>
+    <output status="0x96" midino="0x0C" light="Pad(0,4)" deck="1"/>
+    <output status="0x97" midino="0x0C" light="Pad(0,4)" deck="2"/>
+    <output status="0x98" midino="0x0C" light="Pad(0,4)" deck="3"/>
+    <output status="0x95" midino="0x14" light="Pad(3,4)" deck="0"/>
+    <output status="0x96" midino="0x14" light="Pad(3,4)" deck="1"/>
+    <output status="0x97" midino="0x14" light="Pad(3,4)" deck="2"/>
+    <output status="0x98" midino="0x14" light="Pad(3,4)" deck="3"/>
+    <output status="0x95" midino="0x1C" light="Pad(3,4)" deck="0"/>
+    <output status="0x96" midino="0x1C" light="Pad(3,4)" deck="1"/>
+    <output status="0x97" midino="0x1C" light="Pad(3,4)" deck="2"/>
+    <output status="0x98" midino="0x1C" light="Pad(3,4)" deck="3"/>
+    <output status="0x95" midino="0x24" light="Pad(4,4)" deck="0"/>
+    <output status="0x96" midino="0x24" light="Pad(4,4)" deck="1"/>
+    <output status="0x97" midino="0x24" light="Pad(4,4)" deck="2"/>
+    <output status="0x98" midino="0x24" light="Pad(4,4)" deck="3"/>
+    <output status="0x95" midino="0x2C" light="Pad(4,12)" deck="0"/>
+    <output status="0x96" midino="0x2C" light="Pad(4,12)" deck="1"/>
+    <output status="0x97" midino="0x2C" light="Pad(4,12)" deck="2"/>
+    <output status="0x98" midino="0x2C" light="Pad(4,12)" deck="3"/>
+    <output status="0x95" midino="0x34" light="Pad(1,4)" deck="0"/>
+    <output status="0x96" midino="0x34" light="Pad(1,4)" deck="1"/>
+    <output status="0x97" midino="0x34" light="Pad(1,4)" deck="2"/>
+    <output status="0x98" midino="0x34" light="Pad(1,4)" deck="3"/>
+    <output status="0x95" midino="0x44" light="Pad(2,4)" deck="0"/>
+    <output status="0x96" midino="0x44" light="Pad(2,4)" deck="1"/>
+    <output status="0x97" midino="0x44" light="Pad(2,4)" deck="2"/>
+    <output status="0x98" midino="0x44" light="Pad(2,4)" deck="3"/>
+    <output status="0x95" midino="0x4C" light="Pad(2,4)" deck="0"/>
+    <output status="0x96" midino="0x4C" light="Pad(2,4)" deck="1"/>
+    <output status="0x97" midino="0x4C" light="Pad(2,4)" deck="2"/>
+    <output status="0x98" midino="0x4C" light="Pad(2,4)" deck="3"/>
+    <output status="0x95" midino="0x54" light="Pad(5,4)" deck="0"/>
+    <output status="0x96" midino="0x54" light="Pad(5,4)" deck="1"/>
+    <output status="0x97" midino="0x54" light="Pad(5,4)" deck="2"/>
+    <output status="0x98" midino="0x54" light="Pad(5,4)" deck="3"/>
+    <output status="0x95" midino="0x74" light="SamplerPad(4)" deck="0"/>
+    <output status="0x96" midino="0x74" light="SamplerPad(4)" deck="1"/>
+    <output status="0x97" midino="0x74" light="SamplerPad(4)" deck="2"/>
+    <output status="0x98" midino="0x74" light="SamplerPad(4)" deck="3"/>
+    <output status="0x95" midino="0x7C" light="SamplerPad(4)" deck="0"/>
+    <output status="0x96" midino="0x7C" light="SamplerPad(4)" deck="1"/>
+    <output status="0x97" midino="0x7C" light="SamplerPad(4)" deck="2"/>
+    <output status="0x98" midino="0x7C" light="SamplerPad(4)" deck="3"/>
+    <output status="0x95" midino="0x05" light="Pad(0,5)" deck="0"/>
+    <output status="0x96" midino="0x05" light="Pad(0,5)" deck="1"/>
+    <output status="0x97" midino="0x05" light="Pad(0,5)" deck="2"/>
+    <output status="0x98" midino="0x05" light="Pad(0,5)" deck="3"/>
+    <output status="0x95" midino="0x0D" light="Pad(0,5)" deck="0"/>
+    <output status="0x96" midino="0x0D" light="Pad(0,5)" deck="1"/>
+    <output status="0x97" midino="0x0D" light="Pad(0,5)" deck="2"/>
+    <output status="0x98" midino="0x0D" light="Pad(0,5)" deck="3"/>
+    <output status="0x95" midino="0x15" light="Pad(3,5)" deck="0"/>
+    <output status="0x96" midino="0x15" light="Pad(3,5)" deck="1"/>
+    <output status="0x97" midino="0x15" light="Pad(3,5)" deck="2"/>
+    <output status="0x98" midino="0x15" light="Pad(3,5)" deck="3"/>
+    <output status="0x95" midino="0x1D" light="Pad(3,5)" deck="0"/>
+    <output status="0x96" midino="0x1D" light="Pad(3,5)" deck="1"/>
+    <output status="0x97" midino="0x1D" light="Pad(3,5)" deck="2"/>
+    <output status="0x98" midino="0x1D" light="Pad(3,5)" deck="3"/>
+    <output status="0x95" midino="0x25" light="Pad(4,5)" deck="0"/>
+    <output status="0x96" midino="0x25" light="Pad(4,5)" deck="1"/>
+    <output status="0x97" midino="0x25" light="Pad(4,5)" deck="2"/>
+    <output status="0x98" midino="0x25" light="Pad(4,5)" deck="3"/>
+    <output status="0x95" midino="0x2D" light="Pad(4,13)" deck="0"/>
+    <output status="0x96" midino="0x2D" light="Pad(4,13)" deck="1"/>
+    <output status="0x97" midino="0x2D" light="Pad(4,13)" deck="2"/>
+    <output status="0x98" midino="0x2D" light="Pad(4,13)" deck="3"/>
+    <output status="0x95" midino="0x35" light="Pad(1,5)" deck="0"/>
+    <output status="0x96" midino="0x35" light="Pad(1,5)" deck="1"/>
+    <output status="0x97" midino="0x35" light="Pad(1,5)" deck="2"/>
+    <output status="0x98" midino="0x35" light="Pad(1,5)" deck="3"/>
+    <output status="0x95" midino="0x45" light="Pad(2,5)" deck="0"/>
+    <output status="0x96" midino="0x45" light="Pad(2,5)" deck="1"/>
+    <output status="0x97" midino="0x45" light="Pad(2,5)" deck="2"/>
+    <output status="0x98" midino="0x45" light="Pad(2,5)" deck="3"/>
+    <output status="0x95" midino="0x4D" light="Pad(2,5)" deck="0"/>
+    <output status="0x96" midino="0x4D" light="Pad(2,5)" deck="1"/>
+    <output status="0x97" midino="0x4D" light="Pad(2,5)" deck="2"/>
+    <output status="0x98" midino="0x4D" light="Pad(2,5)" deck="3"/>
+    <output status="0x95" midino="0x55" light="Pad(5,5)" deck="0"/>
+    <output status="0x96" midino="0x55" light="Pad(5,5)" deck="1"/>
+    <output status="0x97" midino="0x55" light="Pad(5,5)" deck="2"/>
+    <output status="0x98" midino="0x55" light="Pad(5,5)" deck="3"/>
+    <output status="0x95" midino="0x75" light="SamplerPad(5)" deck="0"/>
+    <output status="0x96" midino="0x75" light="SamplerPad(5)" deck="1"/>
+    <output status="0x97" midino="0x75" light="SamplerPad(5)" deck="2"/>
+    <output status="0x98" midino="0x75" light="SamplerPad(5)" deck="3"/>
+    <output status="0x95" midino="0x7D" light="SamplerPad(5)" deck="0"/>
+    <output status="0x96" midino="0x7D" light="SamplerPad(5)" deck="1"/>
+    <output status="0x97" midino="0x7D" light="SamplerPad(5)" deck="2"/>
+    <output status="0x98" midino="0x7D" light="SamplerPad(5)" deck="3"/>
+    <output status="0x95" midino="0x06" light="Pad(0,6)" deck="0"/>
+    <output status="0x96" midino="0x06" light="Pad(0,6)" deck="1"/>
+    <output status="0x97" midino="0x06" light="Pad(0,6)" deck="2"/>
+    <output status="0x98" midino="0x06" light="Pad(0,6)" deck="3"/>
+    <output status="0x95" midino="0x0E" light="Pad(0,6)" deck="0"/>
+    <output status="0x96" midino="0x0E" light="Pad(0,6)" deck="1"/>
+    <output status="0x97" midino="0x0E" light="Pad(0,6)" deck="2"/>
+    <output status="0x98" midino="0x0E" light="Pad(0,6)" deck="3"/>
+    <output status="0x95" midino="0x16" light="Pad(3,6)" deck="0"/>
+    <output status="0x96" midino="0x16" light="Pad(3,6)" deck="1"/>
+    <output status="0x97" midino="0x16" light="Pad(3,6)" deck="2"/>
+    <output status="0x98" midino="0x16" light="Pad(3,6)" deck="3"/>
+    <output status="0x95" midino="0x1E" light="Pad(3,6)" deck="0"/>
+    <output status="0x96" midino="0x1E" light="Pad(3,6)" deck="1"/>
+    <output status="0x97" midino="0x1E" light="Pad(3,6)" deck="2"/>
+    <output status="0x98" midino="0x1E" light="Pad(3,6)" deck="3"/>
+    <output status="0x95" midino="0x26" light="Pad(4,6)" deck="0"/>
+    <output status="0x96" midino="0x26" light="Pad(4,6)" deck="1"/>
+    <output status="0x97" midino="0x26" light="Pad(4,6)" deck="2"/>
+    <output status="0x98" midino="0x26" light="Pad(4,6)" deck="3"/>
+    <output status="0x95" midino="0x2E" light="Pad(4,14)" deck="0"/>
+    <output status="0x96" midino="0x2E" light="Pad(4,14)" deck="1"/>
+    <output status="0x97" midino="0x2E" light="Pad(4,14)" deck="2"/>
+    <output status="0x98" midino="0x2E" light="Pad(4,14)" deck="3"/>
+    <output status="0x95" midino="0x36" light="Pad(1,6)" deck="0"/>
+    <output status="0x96" midino="0x36" light="Pad(1,6)" deck="1"/>
+    <output status="0x97" midino="0x36" light="Pad(1,6)" deck="2"/>
+    <output status="0x98" midino="0x36" light="Pad(1,6)" deck="3"/>
+    <output status="0x95" midino="0x3E" light="Mode(1)" deck="0"/>
+    <output status="0x96" midino="0x3E" light="Mode(1)" deck="1"/>
+    <output status="0x97" midino="0x3E" light="Mode(1)" deck="2"/>
+    <output status="0x98" midino="0x3E" light="Mode(1)" deck="3"/>
+    <output status="0x95" midino="0x46" light="Pad(2,6)" deck="0"/>
+    <output status="0x96" midino="0x46" light="Pad(2,6)" deck="1"/>
+    <output status="0x97" midino="0x46" light="Pad(2,6)" deck="2"/>
+    <output status="0x98" midino="0x46" light="Pad(2,6)" deck="3"/>
+    <output status="0x95" midino="0x4E" light="Mode(2)" deck="0"/>
+    <output status="0x96" midino="0x4E" light="Mode(2)" deck="1"/>
+    <output status="0x97" midino="0x4E" light="Mode(2)" deck="2"/>
+    <output status="0x98" midino="0x4E" light="Mode(2)" deck="3"/>
+    <output status="0x95" midino="0x56" light="Pad(5,6)" deck="0"/>
+    <output status="0x96" midino="0x56" light="Pad(5,6)" deck="1"/>
+    <output status="0x97" midino="0x56" light="Pad(5,6)" deck="2"/>
+    <output status="0x98" midino="0x56" light="Pad(5,6)" deck="3"/>
+    <output status="0x95" midino="0x5E" light="Mode(5)" deck="0"/>
+    <output status="0x96" midino="0x5E" light="Mode(5)" deck="1"/>
+    <output status="0x97" midino="0x5E" light="Mode(5)" deck="2"/>
+    <output status="0x98" midino="0x5E" light="Mode(5)" deck="3"/>
+    <output status="0x95" midino="0x76" light="SamplerPad(6)" deck="0"/>
+    <output status="0x96" midino="0x76" light="SamplerPad(6)" deck="1"/>
+    <output status="0x97" midino="0x76" light="SamplerPad(6)" deck="2"/>
+    <output status="0x98" midino="0x76" light="SamplerPad(6)" deck="3"/>
+    <output status="0x95" midino="0x7E" light="SamplerPad(6)" deck="0"/>
+    <output status="0x96" midino="0x7E" light="SamplerPad(6)" deck="1"/>
+    <output status="0x97" midino="0x7E" light="SamplerPad(6)" deck="2"/>
+    <output status="0x98" midino="0x7E" light="SamplerPad(6)" deck="3"/>
+    <output status="0x95" midino="0x07" light="Pad(0,7)" deck="0"/>
+    <output status="0x96" midino="0x07" light="Pad(0,7)" deck="1"/>
+    <output status="0x97" midino="0x07" light="Pad(0,7)" deck="2"/>
+    <output status="0x98" midino="0x07" light="Pad(0,7)" deck="3"/>
+    <output status="0x95" midino="0x0F" light="Pad(0,7)" deck="0"/>
+    <output status="0x96" midino="0x0F" light="Pad(0,7)" deck="1"/>
+    <output status="0x97" midino="0x0F" light="Pad(0,7)" deck="2"/>
+    <output status="0x98" midino="0x0F" light="Pad(0,7)" deck="3"/>
+    <output status="0x95" midino="0x17" light="Pad(3,7)" deck="0"/>
+    <output status="0x96" midino="0x17" light="Pad(3,7)" deck="1"/>
+    <output status="0x97" midino="0x17" light="Pad(3,7)" deck="2"/>
+    <output status="0x98" midino="0x17" light="Pad(3,7)" deck="3"/>
+    <output status="0x95" midino="0x1F" light="Pad(3,7)" deck="0"/>
+    <output status="0x96" midino="0x1F" light="Pad(3,7)" deck="1"/>
+    <output status="0x97" midino="0x1F" light="Pad(3,7)" deck="2"/>
+    <output status="0x98" midino="0x1F" light="Pad(3,7)" deck="3"/>
+    <output status="0x95" midino="0x27" light="Pad(4,7)" deck="0"/>
+    <output status="0x96" midino="0x27" light="Pad(4,7)" deck="1"/>
+    <output status="0x97" midino="0x27" light="Pad(4,7)" deck="2"/>
+    <output status="0x98" midino="0x27" light="Pad(4,7)" deck="3"/>
+    <output status="0x95" midino="0x2F" light="Pad(4,15)" deck="0"/>
+    <output status="0x96" midino="0x2F" light="Pad(4,15)" deck="1"/>
+    <output status="0x97" midino="0x2F" light="Pad(4,15)" deck="2"/>
+    <output status="0x98" midino="0x2F" light="Pad(4,15)" deck="3"/>
+    <output status="0x95" midino="0x37" light="Pad(1,7)" deck="0"/>
+    <output status="0x96" midino="0x37" light="Pad(1,7)" deck="1"/>
+    <output status="0x97" midino="0x37" light="Pad(1,7)" deck="2"/>
+    <output status="0x98" midino="0x37" light="Pad(1,7)" deck="3"/>
+    <output status="0x95" midino="0x3F" light="Mode(1)" deck="0"/>
+    <output status="0x96" midino="0x3F" light="Mode(1)" deck="1"/>
+    <output status="0x97" midino="0x3F" light="Mode(1)" deck="2"/>
+    <output status="0x98" midino="0x3F" light="Mode(1)" deck="3"/>
+    <output status="0x95" midino="0x47" light="Pad(2,7)" deck="0"/>
+    <output status="0x96" midino="0x47" light="Pad(2,7)" deck="1"/>
+    <output status="0x97" midino="0x47" light="Pad(2,7)" deck="2"/>
+    <output status="0x98" midino="0x47" light="Pad(2,7)" deck="3"/>
+    <output status="0x95" midino="0x4F" light="Mode(2)" deck="0"/>
+    <output status="0x96" midino="0x4F" light="Mode(2)" deck="1"/>
+    <output status="0x97" midino="0x4F" light="Mode(2)" deck="2"/>
+    <output status="0x98" midino="0x4F" light="Mode(2)" deck="3"/>
+    <output status="0x95" midino="0x57" light="Pad(5,7)" deck="0"/>
+    <output status="0x96" midino="0x57" light="Pad(5,7)" deck="1"/>
+    <output status="0x97" midino="0x57" light="Pad(5,7)" deck="2"/>
+    <output status="0x98" midino="0x57" light="Pad(5,7)" deck="3"/>
+    <output status="0x95" midino="0x5F" light="Mode(5)" deck="0"/>
+    <output status="0x96" midino="0x5F" light="Mode(5)" deck="1"/>
+    <output status="0x97" midino="0x5F" light="Mode(5)" deck="2"/>
+    <output status="0x98" midino="0x5F" light="Mode(5)" deck="3"/>
+    <output status="0x95" midino="0x77" light="SamplerPad(7)" deck="0"/>
+    <output status="0x96" midino="0x77" light="SamplerPad(7)" deck="1"/>
+    <output status="0x97" midino="0x77" light="SamplerPad(7)" deck="2"/>
+    <output status="0x98" midino="0x77" light="SamplerPad(7)" deck="3"/>
+    <output status="0x95" midino="0x7F" light="SamplerPad(7)" deck="0"/>
+    <output status="0x96" midino="0x7F" light="SamplerPad(7)" deck="1"/>
+    <output status="0x97" midino="0x7F" light="SamplerPad(7)" deck="2"/>
+    <output status="0x98" midino="0x7F" light="SamplerPad(7)" deck="3"/>
+    <output status="0x90" midino="0x22" light="Mode(0)" deck="0"/>
+    <output status="0x91" midino="0x22" light="Mode(0)" deck="1"/>
+    <output status="0x92" midino="0x22" light="Mode(0)" deck="2"/>
+    <output status="0x93" midino="0x22" light="Mode(0)" deck="3"/>
+    <output status="0x90" midino="0x26" light="Mode(2)" deck="0"/>
+    <output status="0x91" midino="0x26" light="Mode(2)" deck="1"/>
+    <output status="0x92" midino="0x26" light="Mode(2)" deck="2"/>
+    <output status="0x93" midino="0x26" light="Mode(2)" deck="3"/>
+    <output status="0x90" midino="0x23" light="Mode(3)" deck="0"/>
+    <output status="0x91" midino="0x23" light="Mode(3)" deck="1"/>
+    <output status="0x92" midino="0x23" light="Mode(3)" deck="2"/>
+    <output status="0x93" midino="0x23" light="Mode(3)" deck="3"/>
+    <output status="0x90" midino="0x27" light="Mode(5)" deck="0"/>
+    <output status="0x91" midino="0x27" light="Mode(5)" deck="1"/>
+    <output status="0x92" midino="0x27" light="Mode(5)" deck="2"/>
+    <output status="0x93" midino="0x27" light="Mode(5)" deck="3"/>
+    <output status="0x90" midino="0x24" light="Mode(4)" deck="0"/>
+    <output status="0x91" midino="0x24" light="Mode(4)" deck="1"/>
+    <output status="0x92" midino="0x24" light="Mode(4)" deck="2"/>
+    <output status="0x93" midino="0x24" light="Mode(4)" deck="3"/>
+    <output status="0x90" midino="0x25" light="Mode(1)" deck="0"/>
+    <output status="0x91" midino="0x25" light="Mode(1)" deck="1"/>
+    <output status="0x92" midino="0x25" light="Mode(1)" deck="2"/>
+    <output status="0x93" midino="0x25" light="Mode(1)" deck="3"/>
+    <output status="0x90" midino="0x29" light="Sampler" deck="0"/>
+    <output status="0x91" midino="0x29" light="Sampler" deck="1"/>
+    <output status="0x92" midino="0x29" light="Sampler" deck="2"/>
+    <output status="0x93" midino="0x29" light="Sampler" deck="3"/>
+    <output status="0x9B" midino="0x00" light="Loaded" deck="0"/>
+    <output status="0x9B" midino="0x01" light="Loaded" deck="1"/>
+    <output status="0x9B" midino="0x02" light="Loaded" deck="2"/>
+    <output status="0x9B" midino="0x03" light="Loaded" deck="3"/>
+  </outputs>
+</OpenFadeRMapping>

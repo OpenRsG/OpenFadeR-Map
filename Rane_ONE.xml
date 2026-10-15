@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>Rane ONE</name>
+    <port>Rane ONE</port>
+  </info>
+  <controls>
+    <control status="0xBF" midino="0x08" action="crossfader" deck="0"/>
+    <control status="0xB0" midino="0x16" action="trim" deck="0"/>
+    <control status="0xB1" midino="0x16" action="trim" deck="1"/>
+    <control status="0xB0" midino="0x17" action="eq-hi" deck="0"/>
+    <control status="0xB1" midino="0x17" action="eq-hi" deck="1"/>
+    <control status="0xB0" midino="0x18" action="eq-mid" deck="0"/>
+    <control status="0xB1" midino="0x18" action="eq-mid" deck="1"/>
+    <control status="0xB0" midino="0x19" action="eq-low" deck="0"/>
+    <control status="0xB1" midino="0x19" action="eq-low" deck="1"/>
+    <control status="0xB0" midino="0x1A" action="filter" deck="0"/>
+    <control status="0xB1" midino="0x1A" action="filter" deck="1"/>
+    <control status="0xB0" midino="0x1C" action="fader" deck="0"/>
+    <control status="0xB1" midino="0x1C" action="fader" deck="1"/>
+    <control status="0xBE" midino="0x2D" action="hp-mix" deck="0"/>
+    <control status="0xBE" midino="0x2F" action="hp-level" deck="0"/>
+    <control status="0x98" midino="0x00" action="hw-fx-on" deck="0"/>
+    <control status="0x98" midino="0x01" action="hw-fx-on" deck="0" arg="1"/>
+    <control status="0x98" midino="0x02" action="hw-fx-on" deck="0" arg="2"/>
+    <control status="0x99" midino="0x03" action="hw-fx-on" deck="1"/>
+    <control status="0x99" midino="0x04" action="hw-fx-on" deck="1" arg="1"/>
+    <control status="0x99" midino="0x05" action="hw-fx-on" deck="1" arg="2"/>
+    <control status="0xBF" midino="0x04" action="fx-level-1" deck="0"/>
+    <control status="0x9F" midino="0x04" action="hw-fx-tap" deck="0"/>
+  </controls>
+  <outputs>
+  </outputs>
+</OpenFadeRMapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>Pioneer DJM-S3</name>
+    <port>DJM-S3</port>
+  </info>
+  <controls>
+    <control status="0xB0" midino="0x01" action="trim" deck="0"/>
+    <control status="0xB0" midino="0x06" action="trim" deck="1"/>
+    <control status="0xB0" midino="0x02" action="eq-hi" deck="0"/>
+    <control status="0xB0" midino="0x07" action="eq-hi" deck="1"/>
+    <control status="0xB0" midino="0x03" action="eq-mid" deck="0"/>
+    <control status="0xB0" midino="0x08" action="eq-mid" deck="1"/>
+    <control status="0xB0" midino="0x04" action="eq-low" deck="0"/>
+    <control status="0xB0" midino="0x09" action="eq-low" deck="1"/>
+    <control status="0xB0" midino="0x11" action="fader" deck="0"/>
+    <control status="0xB0" midino="0x12" action="fader" deck="1"/>
+    <control status="0xB0" midino="0x0B" action="crossfader" deck="0"/>
+    <control status="0xB0" midino="0x1B" action="hp-mix" deck="0"/>
+    <control status="0xB0" midino="0x1A" action="hp-level" deck="0"/>
+  </controls>
+  <outputs>
+  </outputs>
+</OpenFadeRMapping>

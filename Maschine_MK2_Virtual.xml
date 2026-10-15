@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>Maschine MK2 Virtual</name>
+    <port>Maschine MK2 Virtual</port>
+  </info>
+  <controls>
+    <control status="0x90" midino="0x0C" action="play" deck="0"/>
+    <control status="0x90" midino="0x0E" action="play" deck="1"/>
+    <control status="0xB0" midino="0x0D" action="sync" deck="0"/>
+    <control status="0xB0" midino="0x0F" action="sync" deck="1"/>
+    <control status="0x90" midino="0x10" action="cue" deck="0"/>
+    <control status="0x90" midino="0x12" action="cue" deck="1"/>
+    <control status="0x90" midino="0x19" action="loop-4" deck="0"/>
+    <control status="0x90" midino="0x1B" action="loop-4" deck="1"/>
+    <control status="0xB0" midino="0x13" action="fx-level-1" deck="1"/>
+    <control status="0xB0" midino="0x10" action="fx-level-2" deck="0"/>
+    <control status="0xB0" midino="0x14" action="fx-level-2" deck="1"/>
+    <control status="0xB0" midino="0x11" action="fx-level-3" deck="0"/>
+    <control status="0xB0" midino="0x15" action="fx-level-3" deck="1"/>
+    <control status="0xB0" midino="0x2F" action="hw-fx-on" deck="0"/>
+    <control status="0xB0" midino="0x33" action="hw-fx-on" deck="1"/>
+    <control status="0xB0" midino="0x30" action="hw-fx-on" deck="0" arg="1"/>
+    <control status="0xB0" midino="0x34" action="hw-fx-on" deck="1" arg="1"/>
+    <control status="0xB0" midino="0x31" action="hw-fx-on" deck="0" arg="2"/>
+    <control status="0xB0" midino="0x35" action="hw-fx-on" deck="1" arg="2"/>
+    <control status="0xB0" midino="0x69" action="load" deck="0"/>
+    <control status="0xB0" midino="0x6A" action="load" deck="1"/>
+  </controls>
+  <outputs>
+    <output status="0x90" midino="0x0C" light="Play" deck="0"/>
+    <output status="0x90" midino="0x0E" light="Play" deck="1"/>
+    <output status="0xB0" midino="0x0D" light="Sync" deck="0"/>
+    <output status="0xB0" midino="0x0F" light="Sync" deck="1"/>
+    <output status="0x90" midino="0x18" light="Loop" deck="0"/>
+    <output status="0x90" midino="0x1A" light="Loop" deck="1"/>
+    <output status="0xB0" midino="0x2F" light="Fx(0,0)" deck="0"/>
+    <output status="0xB0" midino="0x33" light="Fx(1,0)" deck="0"/>
+    <output status="0xB0" midino="0x30" light="Fx(0,1)" deck="0"/>
+    <output status="0xB0" midino="0x34" light="Fx(1,1)" deck="0"/>
+    <output status="0xB0" midino="0x31" light="Fx(0,2)" deck="0"/>
+    <output status="0xB0" midino="0x35" light="Fx(1,2)" deck="0"/>
+  </outputs>
+</OpenFadeRMapping>

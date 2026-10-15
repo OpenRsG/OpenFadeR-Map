@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>DDJ-XP2</name>
+    <port>DDJ-XP2</port>
+    <outInterval>4</outInterval>
+    <stateRequest>F0 00 20 7F 03 01 F7</stateRequest>
+  </info>
+  <controls>
+    <control status="0xB6" midino="0x40" action="browse" deck="0"/>
+    <control status="0xB6" midino="0x64" action="browse" deck="0"/>
+    <control status="0x96" midino="0x41" action="browse-push" deck="0"/>
+    <control status="0x96" midino="0x42" action="browse-back" deck="0"/>
+    <control status="0x96" midino="0x46" action="load" deck="0"/>
+    <control status="0x96" midino="0x47" action="load" deck="1"/>
+    <control status="0x96" midino="0x48" action="load" deck="2"/>
+    <control status="0x96" midino="0x49" action="load" deck="3"/>
+    <control status="0x96" midino="0x58" action="load" deck="0"/>
+    <control status="0x96" midino="0x59" action="load" deck="1"/>
+    <control status="0x96" midino="0x60" action="load" deck="2"/>
+    <control status="0x96" midino="0x61" action="load" deck="3"/>
+    <control status="0x90" midino="0x50" action="reloop" deck="0"/>
+    <control status="0x91" midino="0x50" action="reloop" deck="1"/>
+    <control status="0x92" midino="0x50" action="reloop" deck="2"/>
+    <control status="0x93" midino="0x50" action="reloop" deck="3"/>
+    <control status="0x90" midino="0x12" action="loop-halve" deck="0"/>
+    <control status="0x91" midino="0x12" action="loop-halve" deck="1"/>
+    <control status="0x92" midino="0x12" action="loop-halve" deck="2"/>
+    <control status="0x93" midino="0x12" action="loop-halve" deck="3"/>
+    <control status="0x90" midino="0x4C" action="loop-in" deck="0"/>
+    <control status="0x91" midino="0x4C" action="loop-in" deck="1"/>
+    <control status="0x92" midino="0x4C" action="loop-in" deck="2"/>
+    <control status="0x93" midino="0x4C" action="loop-in" deck="3"/>
+    <control status="0x90" midino="0x13" action="loop-double" deck="0"/>
+    <control status="0x91" midino="0x13" action="loop-double" deck="1"/>
+    <control status="0x92" midino="0x13" action="loop-double" deck="2"/>
+    <control status="0x93" midino="0x13" action="loop-double" deck="3"/>
+    <control status="0x90" midino="0x4D" action="loop-out" deck="0"/>
+    <control status="0x91" midino="0x4D" action="loop-out" deck="1"/>
+    <control status="0x92" midino="0x4D" action="loop-out" deck="2"/>
+    <control status="0x93" midino="0x4D" action="loop-out" deck="3"/>
+    <control status="0x90" midino="0x58" action="sync" deck="0"/>
+    <control status="0x91" midino="0x58" action="sync" deck="1"/>
+    <control status="0x92" midino="0x58" action="sync" deck="2"/>
+    <control status="0x93" midino="0x58" action="sync" deck="3"/>
+    <control status="0x90" midino="0x5C" action="hw-master" deck="0"/>
+    <control status="0x91" midino="0x5C" action="hw-master" deck="1"/>
+    <control status="0x92" midino="0x5C" action="hw-master" deck="2"/>
+    <control status="0x93" midino="0x5C" action="hw-master" deck="3"/>
+  </controls>
+  <outputs>
+    <output status="0x90" midino="0x4C" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x4C" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x4C" light="Loop" deck="2"/>
+    <output status="0x93" midino="0x4C" light="Loop" deck="3"/>
+    <output status="0x90" midino="0x4D" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x4D" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x4D" light="Loop" deck="2"/>
+    <output status="0x93" midino="0x4D" light="Loop" deck="3"/>
+    <output status="0x90" midino="0x58" light="Sync" deck="0" blink="600"/>
+    <output status="0x91" midino="0x58" light="Sync" deck="1" blink="600"/>
+    <output status="0x92" midino="0x58" light="Sync" deck="2" blink="600"/>
+    <output status="0x93" midino="0x58" light="Sync" deck="3" blink="600"/>
+    <output status="0x90" midino="0x5C" light="Master" deck="0"/>
+    <output status="0x91" midino="0x5C" light="Master" deck="1"/>
+    <output status="0x92" midino="0x5C" light="Master" deck="2"/>
+    <output status="0x93" midino="0x5C" light="Master" deck="3"/>
+    <output status="0x9F" midino="0x04" light="Loop" deck="0"/>
+    <output status="0x9F" midino="0x05" light="Loop" deck="1"/>
+    <output status="0x9F" midino="0x06" light="Loop" deck="2"/>
+    <output status="0x9F" midino="0x07" light="Loop" deck="3"/>
+    <output status="0x9F" midino="0x00" light="Loaded" deck="0"/>
+    <output status="0x9F" midino="0x01" light="Loaded" deck="1"/>
+    <output status="0x9F" midino="0x02" light="Loaded" deck="2"/>
+    <output status="0x9F" midino="0x03" light="Loaded" deck="3"/>
+  </outputs>
+</OpenFadeRMapping>

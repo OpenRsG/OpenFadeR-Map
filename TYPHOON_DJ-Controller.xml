@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFadeRMapping schemaVersion="1">
+  <info>
+    <name>TYPHOON DJ-Controller</name>
+    <port>TYPHOON DJ-Controller</port>
+  </info>
+  <controls>
+    <control status="0x90" midino="0x32" action="play" deck="0"/>
+    <control status="0x91" midino="0x32" action="play" deck="1"/>
+    <control status="0x90" midino="0x35" action="cue" deck="0"/>
+    <control status="0x91" midino="0x35" action="cue" deck="1"/>
+    <control status="0xB0" midino="0x0C" action="fader" deck="0"/>
+    <control status="0xB1" midino="0x0C" action="fader" deck="1"/>
+    <control status="0xB2" midino="0x08" action="crossfader" deck="0"/>
+    <control status="0x90" midino="0x2E" action="jog-touch" deck="0"/>
+    <control status="0x91" midino="0x2E" action="jog-touch" deck="1"/>
+    <control status="0xB0" midino="0x10" action="jog" deck="0"/>
+    <control status="0xB1" midino="0x10" action="jog" deck="1"/>
+    <control status="0xB0" midino="0x14" action="trim" deck="0"/>
+    <control status="0xB1" midino="0x14" action="trim" deck="1"/>
+    <control status="0xB0" midino="0x15" action="eq-hi" deck="0"/>
+    <control status="0xB1" midino="0x15" action="eq-hi" deck="1"/>
+    <control status="0xB0" midino="0x16" action="eq-mid" deck="0"/>
+    <control status="0xB1" midino="0x16" action="eq-mid" deck="1"/>
+    <control status="0xB0" midino="0x17" action="eq-low" deck="0"/>
+    <control status="0xB1" midino="0x17" action="eq-low" deck="1"/>
+    <control status="0x90" midino="0x25" action="cue-monitor" deck="0"/>
+    <control status="0x91" midino="0x25" action="cue-monitor" deck="1"/>
+    <control status="0x90" midino="0x20" action="loop-4" deck="0"/>
+    <control status="0x91" midino="0x20" action="loop-4" deck="1"/>
+    <control status="0x90" midino="0x21" action="loop-halve" deck="0"/>
+    <control status="0x91" midino="0x21" action="loop-halve" deck="1"/>
+    <control status="0x90" midino="0x42" action="loop-double" deck="0"/>
+    <control status="0x91" midino="0x42" action="loop-double" deck="1"/>
+    <control status="0x92" midino="0x60" action="load" deck="0"/>
+    <control status="0x92" midino="0x61" action="load" deck="1"/>
+    <control status="0x90" midino="0x46" action="sync" deck="0"/>
+    <control status="0x91" midino="0x46" action="sync" deck="1"/>
+    <control status="0x92" midino="0x29" action="hw-fx-on" deck="0"/>
+    <control status="0x92" midino="0x28" action="hw-fx-on" deck="1"/>
+    <control status="0xB2" midino="0x51" action="fx-level-1" deck="0"/>
+    <control status="0xB2" midino="0x52" action="fx-level-1" deck="1"/>
+  </controls>
+  <outputs>
+    <output status="0x90" midino="0x32" light="Play" deck="0"/>
+    <output status="0x91" midino="0x32" light="Play" deck="1"/>
+    <output status="0x90" midino="0x35" light="Cue" deck="0"/>
+    <output status="0x91" midino="0x35" light="Cue" deck="1"/>
+    <output status="0x90" midino="0x25" light="HpCue" deck="0"/>
+    <output status="0x91" midino="0x25" light="HpCue" deck="1"/>
+    <output status="0x90" midino="0x20" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x20" light="Loop" deck="1"/>
+    <output status="0x90" midino="0x46" light="Sync" deck="0"/>
+    <output status="0x91" midino="0x46" light="Sync" deck="1"/>
+    <output status="0x92" midino="0x29" light="Fx(0,0)" deck="0"/>
+    <output status="0x92" midino="0x28" light="Fx(1,0)" deck="0"/>
+  </outputs>
+</OpenFadeRMapping>
