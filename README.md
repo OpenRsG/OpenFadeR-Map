@@ -13,7 +13,7 @@ point the app at this checkout:
 OPENFADER_MAPPINGS=/path/to/OpenFadeR-Map openfader
 ```
 
-When the core is built from source with this repository checked out as `mappings/` in it, the files are built into the binary.
+The core's `start.sh` clones this repository as `mappings/` in the core checkout, where the app finds it next to its binary.
 
 `audio-cards.json` lists sound-card name fragments whose headphone output is on channels 3/4.
 
