@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OpenRsG/OpenFadeR/main/assets/openfader.png" alt="OpenFadeR logo" width="160">
+</p>
+
 <h1 align="center">OpenFadeR-Map</h1>
 
 <p align="center">
@@ -53,4 +57,4 @@ own SHIFT that sends different MIDI messages works, software shift layers do not
 
 Mapping files for new controllers are welcome. For anything more than a small fix, open an issue first. [CONTRIBUTING.md](CONTRIBUTING.md) shows how to try a mapping with `OPENFADER_MIDI_LOG=1` and the test every file must pass. The [code of conduct](CODE_OF_CONDUCT.md) applies. Related repositories: [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), [OpenFadeR-Plugins](https://github.com/OpenRsG/OpenFadeR-Plugins) and [OpenFadeR-Themes](https://github.com/OpenRsG/OpenFadeR-Themes).
 
-AGPL-3.0, see [LICENSE](LICENSE).
+AGPL-3.0, see [LICENSE](LICENSE). Made by [OpenRsG](https://github.com/OpenRsG).
