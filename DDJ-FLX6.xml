@@ -11,6 +11,7 @@
     <control status="0xB6" midino="0x40" action="browse" deck="0"/>
     <control status="0xB6" midino="0x64" action="zoom-rot" deck="0"/>
     <control status="0x96" midino="0x41" action="browse-push" deck="0"/>
+    <control status="0x96" midino="0x42" action="browse-menu" deck="0"/>
     <control status="0x96" midino="0x65" action="browse-back" deck="0"/>
     <control status="0x96" midino="0x66" action="browse-area" deck="0"/>
     <control status="0x96" midino="0x46" action="load" deck="0"/>
