@@ -53,6 +53,12 @@ The core's `start.sh` clones this repository as `mappings/` in the core checkout
 (`src/app/midi/actions/`, `src/app/midi/mod.rs` `Led`). Only the default layer of a controller is mapped; a controller's
 own SHIFT that sends different MIDI messages works, software shift layers do not.
 
+## DDJ-FLX6 track menu
+
+SHIFT + browse push sends `0x96 0x42` and toggles the selected track's menu (`browse-menu`). While the menu is open, turn the browse knob to choose an item and push it without SHIFT to run that item. BACK or SHIFT + browse push closes the menu. With no tracks, no menu opens.
+
+This binding needs a core with the `browse-menu` action and controller-driven track menus, included in OpenFadeR 0.2.8. Older cores without that action report it as unknown. The controller sends a distinct SHIFT message; no software shift layer is needed.
+
 ## Contributing and license
 
 Mapping files for new controllers are welcome. For anything more than a small fix, open an issue first. [CONTRIBUTING.md](CONTRIBUTING.md) shows how to try a mapping with `OPENFADER_MIDI_LOG=1` and the test every file must pass. The [code of conduct](CODE_OF_CONDUCT.md) applies. Related repositories: [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), [OpenFadeR-Plugins](https://github.com/OpenRsG/OpenFadeR-Plugins) and [OpenFadeR-Themes](https://github.com/OpenRsG/OpenFadeR-Themes).
