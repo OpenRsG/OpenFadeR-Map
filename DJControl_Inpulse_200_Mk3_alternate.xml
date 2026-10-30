@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <OpenFadeRMapping schemaVersion="1">
   <info>
     <name>DJControl Inpulse 200 Mk3</name>
@@ -54,15 +54,15 @@
     <control status="0xB5" midino="0x09" action="jog-2c" deck="1"/>
     <control status="0xB5" midino="0x0A" action="jog-2c" deck="1"/>
     <control status="0x92" midino="0x0D" action="load" deck="1"/>
-    <control status="0x96" midino="0x00" action="hw-pad" deck="0" arg="0"/>
+    <control status="0x96" midino="0x00" action="hw-pad" deck="0"/>
     <control status="0x96" midino="0x01" action="hw-pad" deck="0" arg="1"/>
     <control status="0x96" midino="0x02" action="hw-pad" deck="0" arg="2"/>
     <control status="0x96" midino="0x03" action="hw-pad" deck="0" arg="3"/>
-    <control status="0x96" midino="0x08" action="hw-pad-delete" deck="0" arg="0"/>
+    <control status="0x96" midino="0x08" action="hw-pad-delete" deck="0"/>
     <control status="0x96" midino="0x09" action="hw-pad-delete" deck="0" arg="1"/>
     <control status="0x96" midino="0x0A" action="hw-pad-delete" deck="0" arg="2"/>
     <control status="0x96" midino="0x0B" action="hw-pad-delete" deck="0" arg="3"/>
-    <control status="0x96" midino="0x10" action="hw-fx-on" deck="0" arg="0"/>
+    <control status="0x96" midino="0x10" action="hw-fx-on" deck="0"/>
     <control status="0x96" midino="0x11" action="hw-fx-on" deck="0" arg="1"/>
     <control status="0x96" midino="0x12" action="hw-fx-on" deck="0" arg="2"/>
     <control status="0x96" midino="0x13" action="fx-toggle" deck="0"/>
@@ -70,22 +70,22 @@
     <control status="0x96" midino="0x21" action="loop-2" deck="0"/>
     <control status="0x96" midino="0x22" action="loop-4" deck="0"/>
     <control status="0x96" midino="0x23" action="loop-8" deck="0"/>
-    <control status="0x96" midino="0x30" action="hw-sampler" deck="0" arg="0"/>
+    <control status="0x96" midino="0x30" action="hw-sampler" deck="0"/>
     <control status="0x96" midino="0x31" action="hw-sampler" deck="0" arg="1"/>
     <control status="0x96" midino="0x32" action="hw-sampler" deck="0" arg="2"/>
     <control status="0x96" midino="0x33" action="hw-sampler" deck="0" arg="3"/>
-    <control status="0x96" midino="0x28" action="hw-fx-select" deck="0" arg="0"/>
+    <control status="0x96" midino="0x28" action="hw-fx-select" deck="0"/>
     <control status="0x96" midino="0x29" action="hw-fx-select" deck="0" arg="2"/>
     <control status="0x96" midino="0x2A" action="hw-fx-select" deck="0" arg="4"/>
-    <control status="0x97" midino="0x00" action="hw-pad" deck="1" arg="0"/>
+    <control status="0x97" midino="0x00" action="hw-pad" deck="1"/>
     <control status="0x97" midino="0x01" action="hw-pad" deck="1" arg="1"/>
     <control status="0x97" midino="0x02" action="hw-pad" deck="1" arg="2"/>
     <control status="0x97" midino="0x03" action="hw-pad" deck="1" arg="3"/>
-    <control status="0x97" midino="0x08" action="hw-pad-delete" deck="1" arg="0"/>
+    <control status="0x97" midino="0x08" action="hw-pad-delete" deck="1"/>
     <control status="0x97" midino="0x09" action="hw-pad-delete" deck="1" arg="1"/>
     <control status="0x97" midino="0x0A" action="hw-pad-delete" deck="1" arg="2"/>
     <control status="0x97" midino="0x0B" action="hw-pad-delete" deck="1" arg="3"/>
-    <control status="0x97" midino="0x10" action="hw-fx-on" deck="1" arg="0"/>
+    <control status="0x97" midino="0x10" action="hw-fx-on" deck="1"/>
     <control status="0x97" midino="0x11" action="hw-fx-on" deck="1" arg="1"/>
     <control status="0x97" midino="0x12" action="hw-fx-on" deck="1" arg="2"/>
     <control status="0x97" midino="0x13" action="fx-toggle" deck="1"/>
@@ -97,13 +97,17 @@
     <control status="0x97" midino="0x31" action="hw-sampler" deck="1" arg="5"/>
     <control status="0x97" midino="0x32" action="hw-sampler" deck="1" arg="6"/>
     <control status="0x97" midino="0x33" action="hw-sampler" deck="1" arg="7"/>
-    <control status="0x97" midino="0x28" action="hw-fx-select" deck="1" arg="0"/>
+    <control status="0x97" midino="0x28" action="hw-fx-select" deck="1"/>
     <control status="0x97" midino="0x29" action="hw-fx-select" deck="1" arg="2"/>
     <control status="0x97" midino="0x2A" action="hw-fx-select" deck="1" arg="4"/>
     <control status="0x90" midino="0x00" action="browse-push" deck="0"/>
     <control status="0x93" midino="0x00" action="browse-back" deck="0"/>
     <control status="0xB0" midino="0x01" action="browse" deck="0"/>
-  <control status="0x91" midino="0x09" action="stem-inst" deck="0"/><control status="0x91" midino="0x0A" action="stem-vocal" deck="0"/><control status="0x92" midino="0x09" action="stem-inst" deck="1"/><control status="0x92" midino="0x0A" action="stem-vocal" deck="1"/></controls>
+    <control status="0x91" midino="0x09" action="stem-inst" deck="0"/>
+    <control status="0x91" midino="0x0A" action="stem-vocal" deck="0"/>
+    <control status="0x92" midino="0x09" action="stem-inst" deck="1"/>
+    <control status="0x92" midino="0x0A" action="stem-vocal" deck="1"/>
+  </controls>
   <outputs>
     <output status="0x96" midino="0x00" light="PadSlot(0)" deck="0"/>
     <output status="0x96" midino="0x01" light="PadSlot(1)" deck="0"/>
