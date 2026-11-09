@@ -211,6 +211,9 @@
     <output status="0x91" midino="0x0C" light="HpCue" deck="0"/>
     <output status="0x94" midino="0x0C" light="HpCue" deck="0"/>
     <output status="0x91" midino="0x2C" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x09" light="Loop" deck="0"/>
+    <output status="0x91" midino="0x0A" light="Loop" deck="0"/>
+    <output status="0xB1" midino="0x40" light="Level" deck="0"/>
     <output status="0x91" midino="0x07" light="Play" deck="0"/>
     <output status="0x91" midino="0x05" light="Sync" deck="0"/>
     <output status="0x94" midino="0x05" light="Sync" deck="0"/>
@@ -219,6 +222,9 @@
     <output status="0x92" midino="0x0C" light="HpCue" deck="1"/>
     <output status="0x95" midino="0x0C" light="HpCue" deck="1"/>
     <output status="0x92" midino="0x2C" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x09" light="Loop" deck="1"/>
+    <output status="0x92" midino="0x0A" light="Loop" deck="1"/>
+    <output status="0xB2" midino="0x40" light="Level" deck="1"/>
     <output status="0x92" midino="0x07" light="Play" deck="1"/>
     <output status="0x92" midino="0x05" light="Sync" deck="1"/>
     <output status="0x95" midino="0x05" light="Sync" deck="1"/>
