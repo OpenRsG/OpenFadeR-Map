@@ -208,12 +208,17 @@
     <control status="0x97" midino="0x77" action="pad8" deck="1"/>
   </controls>
   <outputs>
+    <output status="0xB0" midino="0x40" light="MasterLevel" deck="0"/>
+    <output status="0xB0" midino="0x41" light="MasterLevel" deck="0"/>
+    <output status="0x90" midino="0x0A" light="MasterPeak" deck="0"/>
+    <output status="0x90" midino="0x0F" light="MasterPeak" deck="0"/>
     <output status="0x91" midino="0x0C" light="HpCue" deck="0"/>
     <output status="0x94" midino="0x0C" light="HpCue" deck="0"/>
     <output status="0x91" midino="0x2C" light="Loop" deck="0"/>
     <output status="0x91" midino="0x09" light="Loop" deck="0"/>
     <output status="0x91" midino="0x0A" light="Loop" deck="0"/>
     <output status="0xB1" midino="0x40" light="Level" deck="0"/>
+    <output status="0x91" midino="0x39" light="Peak" deck="0"/>
     <output status="0x91" midino="0x07" light="Play" deck="0"/>
     <output status="0x91" midino="0x05" light="Sync" deck="0"/>
     <output status="0x94" midino="0x05" light="Sync" deck="0"/>
@@ -225,6 +230,7 @@
     <output status="0x92" midino="0x09" light="Loop" deck="1"/>
     <output status="0x92" midino="0x0A" light="Loop" deck="1"/>
     <output status="0xB2" midino="0x40" light="Level" deck="1"/>
+    <output status="0x92" midino="0x39" light="Peak" deck="1"/>
     <output status="0x92" midino="0x07" light="Play" deck="1"/>
     <output status="0x92" midino="0x05" light="Sync" deck="1"/>
     <output status="0x95" midino="0x05" light="Sync" deck="1"/>
